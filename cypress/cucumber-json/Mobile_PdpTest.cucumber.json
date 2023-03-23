@@ -1,0 +1,561 @@
+[
+  {
+    "description": "\tAs a customer, I want to test the product detail page functionalities on TF - Mobile",
+    "keyword": "Feature",
+    "name": "Product Detail Page tests TF - Mobile",
+    "line": 2,
+    "id": "product-detail-page-tests-tf---mobile",
+    "tags": [
+      {
+        "name": "@PdpTest",
+        "line": 1
+      },
+      {
+        "name": "@Mobile",
+        "line": 1
+      },
+      {
+        "name": "@RegressionTest",
+        "line": 1
+      }
+    ],
+    "uri": "Mobile_PdpTest.feature",
+    "elements": [
+      {
+        "id": "product-detail-page-tests-tf---mobile;at-samsungs10-calculate-invalid-shipping-in-the-product-page",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "At SamsungS10 Calculate invalid shipping in the product page",
+        "tags": [
+          {
+            "name": "@PdpTest",
+            "line": 1
+          },
+          {
+            "name": "@Mobile",
+            "line": 1
+          },
+          {
+            "name": "@RegressionTest",
+            "line": 1
+          },
+          {
+            "name": "@Pdp",
+            "line": 5
+          },
+          {
+            "name": "@Mobile",
+            "line": 5
+          },
+          {
+            "name": "@SamsungS10",
+            "line": 5
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "At SamsungS10",
+            "result": {
+              "status": "passed",
+              "duration": 3597000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I'm on the product detail page",
+            "result": {
+              "status": "passed",
+              "duration": 4297000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "The page is full loaded in mobile",
+            "result": {
+              "status": "passed",
+              "duration": 12000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I see the promocional modal",
+            "result": {
+              "status": "passed",
+              "duration": 6175000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "On the product page calculate invalid shipping",
+            "result": {
+              "status": "passed",
+              "duration": 5325000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "The shipping table should not be displayed",
+            "result": {
+              "status": "passed",
+              "duration": 5029000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "product-detail-page-tests-tf---mobile;at-samsungs10-validate-price-block",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "At SamsungS10 validate price block",
+        "tags": [
+          {
+            "name": "@PdpTest",
+            "line": 1
+          },
+          {
+            "name": "@Mobile",
+            "line": 1
+          },
+          {
+            "name": "@RegressionTest",
+            "line": 1
+          },
+          {
+            "name": "@Pdp",
+            "line": 15
+          },
+          {
+            "name": "@Mobile",
+            "line": 15
+          },
+          {
+            "name": "@SamsungS10",
+            "line": 15
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 17,
+            "name": "At SamsungS10",
+            "result": {
+              "status": "passed",
+              "duration": 6147000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "I'm on the product detail page",
+            "result": {
+              "status": "passed",
+              "duration": 3368000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "The page is full loaded in mobile",
+            "result": {
+              "status": "passed",
+              "duration": 7000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "I see the promocional modal",
+            "result": {
+              "status": "passed",
+              "duration": 6139000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "The product value is visible in mobile",
+            "result": {
+              "status": "passed",
+              "duration": 10000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "product-detail-page-tests-tf---mobile;at-samsungs10-validate-product-image",
+        "keyword": "Scenario",
+        "line": 25,
+        "name": "At SamsungS10 validate product image",
+        "tags": [
+          {
+            "name": "@PdpTest",
+            "line": 1
+          },
+          {
+            "name": "@Mobile",
+            "line": 1
+          },
+          {
+            "name": "@RegressionTest",
+            "line": 1
+          },
+          {
+            "name": "@Pdp",
+            "line": 24
+          },
+          {
+            "name": "@Mobile",
+            "line": 24
+          },
+          {
+            "name": "@SamsungS10",
+            "line": 24
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 26,
+            "name": "At SamsungS10",
+            "result": {
+              "status": "passed",
+              "duration": 6216000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 27,
+            "name": "I'm on the product detail page",
+            "result": {
+              "status": "passed",
+              "duration": 3787000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 28,
+            "name": "The page is full loaded in mobile",
+            "result": {
+              "status": "passed",
+              "duration": 7000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 29,
+            "name": "I see the promocional modal",
+            "result": {
+              "status": "passed",
+              "duration": 6173000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 30,
+            "name": "The product image should be displayed",
+            "result": {
+              "status": "passed",
+              "duration": 11000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "product-detail-page-tests-tf---mobile;at-samsungs10-calculate-valid-shipping-in-the-product-page",
+        "keyword": "Scenario",
+        "line": 33,
+        "name": "At SamsungS10 Calculate valid shipping in the product page",
+        "tags": [
+          {
+            "name": "@PdpTest",
+            "line": 1
+          },
+          {
+            "name": "@Mobile",
+            "line": 1
+          },
+          {
+            "name": "@RegressionTest",
+            "line": 1
+          },
+          {
+            "name": "@Pdp",
+            "line": 32
+          },
+          {
+            "name": "@Mobile",
+            "line": 32
+          },
+          {
+            "name": "@SamsungS10",
+            "line": 32
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 34,
+            "name": "At SamsungS10",
+            "result": {
+              "status": "passed",
+              "duration": 6177000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 35,
+            "name": "I'm on the product detail page",
+            "result": {
+              "status": "passed",
+              "duration": 3694000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 36,
+            "name": "The page is full loaded in mobile",
+            "result": {
+              "status": "passed",
+              "duration": 7000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 37,
+            "name": "I see the promocional modal",
+            "result": {
+              "status": "passed",
+              "duration": 6164000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 38,
+            "name": "On the product page calculate valid shipping",
+            "result": {
+              "status": "passed",
+              "duration": 5458000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 39,
+            "name": "The shipping table should be displayed",
+            "result": {
+              "status": "passed",
+              "duration": 9000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "product-detail-page-tests-tf---mobile;at-iphonexr-share-product",
+        "keyword": "Scenario",
+        "line": 44,
+        "name": "At IPhoneXR Share Product",
+        "tags": [
+          {
+            "name": "@PdpTest",
+            "line": 1
+          },
+          {
+            "name": "@Mobile",
+            "line": 1
+          },
+          {
+            "name": "@RegressionTest",
+            "line": 1
+          },
+          {
+            "name": "@Pdp",
+            "line": 43
+          },
+          {
+            "name": "@Mobile",
+            "line": 43
+          },
+          {
+            "name": "@IPhoneXR",
+            "line": 43
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 45,
+            "name": "At IPhoneXR",
+            "result": {
+              "status": "passed",
+              "duration": 6096000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 46,
+            "name": "On the product page share product",
+            "result": {
+              "status": "passed",
+              "duration": 159000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 47,
+            "name": "The modal share should be displayed",
+            "result": {
+              "status": "passed",
+              "duration": 14433000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "product-detail-page-tests-tf---mobile;at-samsungs10-validate-button-wishlist",
+        "keyword": "Scenario",
+        "line": 50,
+        "name": "At SamsungS10 validate button wishlist",
+        "tags": [
+          {
+            "name": "@PdpTest",
+            "line": 1
+          },
+          {
+            "name": "@Mobile",
+            "line": 1
+          },
+          {
+            "name": "@RegressionTest",
+            "line": 1
+          },
+          {
+            "name": "@Pdp",
+            "line": 49
+          },
+          {
+            "name": "@Mobile",
+            "line": 49
+          },
+          {
+            "name": "@SamsungS10",
+            "line": 49
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 51,
+            "name": "At SamsungS10",
+            "result": {
+              "status": "passed",
+              "duration": 6127000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 52,
+            "name": "The button wishlist should be displayed",
+            "result": {
+              "status": "passed",
+              "duration": 20000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "product-detail-page-tests-tf---mobile;at-samsungs10-validate-size-selector",
+        "keyword": "Scenario",
+        "line": 55,
+        "name": "At SamsungS10 validate size selector",
+        "tags": [
+          {
+            "name": "@PdpTest",
+            "line": 1
+          },
+          {
+            "name": "@Mobile",
+            "line": 1
+          },
+          {
+            "name": "@RegressionTest",
+            "line": 1
+          },
+          {
+            "name": "@Pdp",
+            "line": 54
+          },
+          {
+            "name": "@Mobile",
+            "line": 54
+          },
+          {
+            "name": "@SamsungS10",
+            "line": 54
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 56,
+            "name": "At SamsungS10",
+            "result": {
+              "status": "passed",
+              "duration": 6110000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 57,
+            "name": "two size must be selected",
+            "result": {
+              "status": "passed",
+              "duration": 8298000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

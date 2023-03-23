@@ -1,0 +1,681 @@
+[
+  {
+    "description": "\tAs a customer, I want to test the checkout functionalities on TF - Mobile",
+    "keyword": "Feature",
+    "name": "Checkout tests TF - Mobile",
+    "line": 2,
+    "id": "checkout-tests-tf---mobile",
+    "tags": [
+      {
+        "name": "@CheckoutTest",
+        "line": 1
+      },
+      {
+        "name": "@Mobile",
+        "line": 1
+      },
+      {
+        "name": "@RegressionTest",
+        "line": 1
+      }
+    ],
+    "uri": "Mobile_Checkout.feature",
+    "elements": [
+      {
+        "id": "checkout-tests-tf---mobile;validade-visa---samsungs10",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Validade visa - SamsungS10",
+        "tags": [
+          {
+            "name": "@CheckoutTest",
+            "line": 1
+          },
+          {
+            "name": "@Mobile",
+            "line": 1
+          },
+          {
+            "name": "@RegressionTest",
+            "line": 1
+          },
+          {
+            "name": "@Checkout",
+            "line": 6
+          },
+          {
+            "name": "@Mobile",
+            "line": 6
+          },
+          {
+            "name": "@SamsungS10",
+            "line": 6
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "At SamsungS10",
+            "result": {
+              "status": "passed",
+              "duration": 3609000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I have one item in the cart with 1 units",
+            "result": {
+              "status": "passed",
+              "duration": 6735000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I proceed to checkout",
+            "result": {
+              "status": "passed",
+              "duration": 2130000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I fill in the checkout data",
+            "result": {
+              "status": "passed",
+              "duration": 5289000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "I fill the address data",
+            "result": {
+              "status": "passed",
+              "duration": 4675000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "I fill visa card number",
+            "result": {
+              "status": "passed",
+              "duration": 4525000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "checkbox VISA must be selected",
+            "result": {
+              "status": "passed",
+              "duration": 1031000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "checkout-tests-tf---mobile;validade-american-express---samsungs10",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Validade american express - SamsungS10",
+        "tags": [
+          {
+            "name": "@CheckoutTest",
+            "line": 1
+          },
+          {
+            "name": "@Mobile",
+            "line": 1
+          },
+          {
+            "name": "@RegressionTest",
+            "line": 1
+          },
+          {
+            "name": "@Checkout",
+            "line": 17
+          },
+          {
+            "name": "@Mobile",
+            "line": 17
+          },
+          {
+            "name": "@SamsungS10",
+            "line": 17
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 19,
+            "name": "At SamsungS10",
+            "result": {
+              "status": "passed",
+              "duration": 6215000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "I have one item in the cart with 1 units",
+            "result": {
+              "status": "passed",
+              "duration": 5306000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "I proceed to checkout",
+            "result": {
+              "status": "passed",
+              "duration": 2107000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "I fill in the checkout data",
+            "result": {
+              "status": "passed",
+              "duration": 5336000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "I fill the address data",
+            "result": {
+              "status": "passed",
+              "duration": 4711000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 24,
+            "name": "I fill american express card number",
+            "result": {
+              "status": "passed",
+              "duration": 4491000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "checkbox AMERICANEXPRESS must be selected",
+            "result": {
+              "status": "passed",
+              "duration": 1022000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "checkout-tests-tf---mobile;validade-mastercard---samsungs10",
+        "keyword": "Scenario",
+        "line": 29,
+        "name": "Validade mastercard - SamsungS10",
+        "tags": [
+          {
+            "name": "@CheckoutTest",
+            "line": 1
+          },
+          {
+            "name": "@Mobile",
+            "line": 1
+          },
+          {
+            "name": "@RegressionTest",
+            "line": 1
+          },
+          {
+            "name": "@Checkout",
+            "line": 28
+          },
+          {
+            "name": "@Mobile",
+            "line": 28
+          },
+          {
+            "name": "@SamsungS10",
+            "line": 28
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 30,
+            "name": "At SamsungS10",
+            "result": {
+              "status": "passed",
+              "duration": 6210000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 31,
+            "name": "I have one item in the cart with 1 units",
+            "result": {
+              "status": "passed",
+              "duration": 4770000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 32,
+            "name": "I proceed to checkout",
+            "result": {
+              "status": "passed",
+              "duration": 2105000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 33,
+            "name": "I fill in the checkout data",
+            "result": {
+              "status": "passed",
+              "duration": 5289000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 34,
+            "name": "I fill the address data",
+            "result": {
+              "status": "passed",
+              "duration": 4726000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 35,
+            "name": "I fill mastercard card number",
+            "result": {
+              "status": "passed",
+              "duration": 5004000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 36,
+            "name": "checkbox MASTERCARD must be selected",
+            "result": {
+              "status": "passed",
+              "duration": 1042000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "checkout-tests-tf---mobile;validade-mandatory-firstname-alert-is-displayed---samsungs10",
+        "keyword": "Scenario",
+        "line": 40,
+        "name": "Validade mandatory firstname alert is displayed - SamsungS10",
+        "tags": [
+          {
+            "name": "@CheckoutTest",
+            "line": 1
+          },
+          {
+            "name": "@Mobile",
+            "line": 1
+          },
+          {
+            "name": "@RegressionTest",
+            "line": 1
+          },
+          {
+            "name": "@Checkout",
+            "line": 39
+          },
+          {
+            "name": "@Mobile",
+            "line": 39
+          },
+          {
+            "name": "@SamsungS10",
+            "line": 39
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 41,
+            "name": "At SamsungS10",
+            "result": {
+              "status": "passed",
+              "duration": 6215000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 42,
+            "name": "I have one item in the cart with 1 units",
+            "result": {
+              "status": "passed",
+              "duration": 6079000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 43,
+            "name": "I proceed to checkout",
+            "result": {
+              "status": "passed",
+              "duration": 2104000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 44,
+            "name": "I fill in the checkout data without firstname",
+            "result": {
+              "status": "passed",
+              "duration": 4522000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 45,
+            "name": "mandatory firstname alert is displayed",
+            "result": {
+              "status": "passed",
+              "duration": 1040000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "checkout-tests-tf---mobile;validade-mandatory-lastname-alert-is-displayed---samsungs10",
+        "keyword": "Scenario",
+        "line": 48,
+        "name": "Validade mandatory lastname alert is displayed - SamsungS10",
+        "tags": [
+          {
+            "name": "@CheckoutTest",
+            "line": 1
+          },
+          {
+            "name": "@Mobile",
+            "line": 1
+          },
+          {
+            "name": "@RegressionTest",
+            "line": 1
+          },
+          {
+            "name": "@Checkout",
+            "line": 47
+          },
+          {
+            "name": "@Mobile",
+            "line": 47
+          },
+          {
+            "name": "@SamsungS10",
+            "line": 47
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 49,
+            "name": "At SamsungS10",
+            "result": {
+              "status": "passed",
+              "duration": 6187000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 50,
+            "name": "I have one item in the cart with 1 units",
+            "result": {
+              "status": "passed",
+              "duration": 5248000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 51,
+            "name": "I proceed to checkout",
+            "result": {
+              "status": "passed",
+              "duration": 2139000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 52,
+            "name": "I fill in the checkout data without lastname",
+            "result": {
+              "status": "passed",
+              "duration": 4415000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 53,
+            "name": "mandatory lastname alert is displayed",
+            "result": {
+              "status": "passed",
+              "duration": 1041000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "checkout-tests-tf---mobile;validade-mandatory-document-alert-is-displayed---samsungs10",
+        "keyword": "Scenario",
+        "line": 56,
+        "name": "Validade mandatory document alert is displayed - SamsungS10",
+        "tags": [
+          {
+            "name": "@CheckoutTest",
+            "line": 1
+          },
+          {
+            "name": "@Mobile",
+            "line": 1
+          },
+          {
+            "name": "@RegressionTest",
+            "line": 1
+          },
+          {
+            "name": "@Checkout",
+            "line": 55
+          },
+          {
+            "name": "@Mobile",
+            "line": 55
+          },
+          {
+            "name": "@SamsungS10",
+            "line": 55
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 57,
+            "name": "At SamsungS10",
+            "result": {
+              "status": "passed",
+              "duration": 6188000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 58,
+            "name": "I have one item in the cart with 1 units",
+            "result": {
+              "status": "passed",
+              "duration": 4643000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 59,
+            "name": "I proceed to checkout",
+            "result": {
+              "status": "passed",
+              "duration": 2107000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 60,
+            "name": "I fill in the checkout data without document",
+            "result": {
+              "status": "passed",
+              "duration": 4336000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 61,
+            "name": "mandatory document alert is displayed",
+            "result": {
+              "status": "passed",
+              "duration": 1026000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "checkout-tests-tf---mobile;validade-mandatory-phone-alert-is-displayed---samsungs10",
+        "keyword": "Scenario",
+        "line": 64,
+        "name": "Validade mandatory phone alert is displayed - SamsungS10",
+        "tags": [
+          {
+            "name": "@CheckoutTest",
+            "line": 1
+          },
+          {
+            "name": "@Mobile",
+            "line": 1
+          },
+          {
+            "name": "@RegressionTest",
+            "line": 1
+          },
+          {
+            "name": "@Checkout",
+            "line": 63
+          },
+          {
+            "name": "@Mobile",
+            "line": 63
+          },
+          {
+            "name": "@SamsungS10",
+            "line": 63
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 65,
+            "name": "At SamsungS10",
+            "result": {
+              "status": "passed",
+              "duration": 6190000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 66,
+            "name": "I have one item in the cart with 1 units",
+            "result": {
+              "status": "passed",
+              "duration": 5847000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 67,
+            "name": "I proceed to checkout",
+            "result": {
+              "status": "passed",
+              "duration": 2107000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 68,
+            "name": "I fill in the checkout data without phone number",
+            "result": {
+              "status": "passed",
+              "duration": 4399000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 69,
+            "name": "mandatory phone number alert is displayed",
+            "result": {
+              "status": "passed",
+              "duration": 1033000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

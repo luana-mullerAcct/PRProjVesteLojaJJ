@@ -1,0 +1,551 @@
+[
+  {
+    "description": "\tAs a customer, I want to test the My Account functionalities on TF - Mobile",
+    "keyword": "Feature",
+    "name": "My Account tests TF - Mobile",
+    "line": 2,
+    "id": "my-account-tests-tf---mobile",
+    "tags": [
+      {
+        "name": "@MyAccountTest",
+        "line": 1
+      },
+      {
+        "name": "@Mobile",
+        "line": 1
+      },
+      {
+        "name": "@RegressionTest",
+        "line": 1
+      }
+    ],
+    "uri": "Mobile_MyAccountTest.feature",
+    "elements": [
+      {
+        "id": "my-account-tests-tf---mobile;at-samsungs10-edit-personal-data---gender-f",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "At SamsungS10 edit personal data - Gender F",
+        "tags": [
+          {
+            "name": "@MyAccountTest",
+            "line": 1
+          },
+          {
+            "name": "@Mobile",
+            "line": 1
+          },
+          {
+            "name": "@RegressionTest",
+            "line": 1
+          },
+          {
+            "name": "@MyAccount",
+            "line": 6
+          },
+          {
+            "name": "@Mobile",
+            "line": 6
+          },
+          {
+            "name": "@SamsungS10",
+            "line": 6
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "At SamsungS10",
+            "result": {
+              "status": "passed",
+              "duration": 3610000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I'm on the home page",
+            "result": {
+              "status": "passed",
+              "duration": 2617000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I see the promocional modal",
+            "result": {
+              "status": "passed",
+              "duration": 6123000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I do login using correct email and password mobile",
+            "result": {
+              "status": "passed",
+              "duration": 17602000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "I Access the profile page",
+            "result": {
+              "status": "passed",
+              "duration": 5332000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "I edit my personal data - Gender F",
+            "result": {
+              "status": "passed",
+              "duration": 4958000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "I check if the personal data was edited correctly - Gender F",
+            "result": {
+              "status": "passed",
+              "duration": 160000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "my-account-tests-tf---mobile;at-samsungs10-edit-personal-data---gender-m",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "At SamsungS10 edit personal data - Gender M",
+        "tags": [
+          {
+            "name": "@MyAccountTest",
+            "line": 1
+          },
+          {
+            "name": "@Mobile",
+            "line": 1
+          },
+          {
+            "name": "@RegressionTest",
+            "line": 1
+          },
+          {
+            "name": "@MyAccount",
+            "line": 16
+          },
+          {
+            "name": "@Mobile",
+            "line": 16
+          },
+          {
+            "name": "@SamsungS10",
+            "line": 16
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 18,
+            "name": "At SamsungS10",
+            "result": {
+              "status": "passed",
+              "duration": 6220000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "I'm on the home page",
+            "result": {
+              "status": "passed",
+              "duration": 395000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "I see the promocional modal",
+            "result": {
+              "status": "passed",
+              "duration": 6164000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "I do login using correct email and password mobile",
+            "result": {
+              "status": "passed",
+              "duration": 17409000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "I Access the profile page",
+            "result": {
+              "status": "passed",
+              "duration": 3839000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 23,
+            "name": "I edit my personal data - Gender M",
+            "result": {
+              "status": "passed",
+              "duration": 4881000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "I check if the personal data was edited correctly - Gender M",
+            "result": {
+              "status": "passed",
+              "duration": 120000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "my-account-tests-tf---mobile;at-samsungs10-add-a-new-address",
+        "keyword": "Scenario",
+        "line": 28,
+        "name": "At SamsungS10 add a new address",
+        "tags": [
+          {
+            "name": "@MyAccountTest",
+            "line": 1
+          },
+          {
+            "name": "@Mobile",
+            "line": 1
+          },
+          {
+            "name": "@RegressionTest",
+            "line": 1
+          },
+          {
+            "name": "@MyAccount",
+            "line": 27
+          },
+          {
+            "name": "@Mobile",
+            "line": 27
+          },
+          {
+            "name": "@SamsungS10",
+            "line": 27
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 29,
+            "name": "At SamsungS10",
+            "result": {
+              "status": "passed",
+              "duration": 6223000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 30,
+            "name": "I'm on the home page",
+            "result": {
+              "status": "passed",
+              "duration": 791000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 31,
+            "name": "I see the promocional modal",
+            "result": {
+              "status": "passed",
+              "duration": 6120000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 32,
+            "name": "I do login using correct email and password mobile",
+            "result": {
+              "status": "passed",
+              "duration": 20645000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 33,
+            "name": "I Access the address page",
+            "result": {
+              "status": "passed",
+              "duration": 6305000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 34,
+            "name": "I access the new address page",
+            "result": {
+              "status": "passed",
+              "duration": 1627000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 35,
+            "name": "I add a new address",
+            "result": {
+              "status": "passed",
+              "duration": 6862000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 36,
+            "name": "I check if the address was added correctly",
+            "result": {
+              "status": "passed",
+              "duration": 2646000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "my-account-tests-tf---mobile;at-samsungs10-edit-an-address",
+        "keyword": "Scenario",
+        "line": 39,
+        "name": "At SamsungS10 edit an address",
+        "tags": [
+          {
+            "name": "@MyAccountTest",
+            "line": 1
+          },
+          {
+            "name": "@Mobile",
+            "line": 1
+          },
+          {
+            "name": "@RegressionTest",
+            "line": 1
+          },
+          {
+            "name": "@MyAccount",
+            "line": 38
+          },
+          {
+            "name": "@Mobile",
+            "line": 38
+          },
+          {
+            "name": "@SamsungS10",
+            "line": 38
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 40,
+            "name": "At SamsungS10",
+            "result": {
+              "status": "passed",
+              "duration": 6198000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 41,
+            "name": "I'm on the home page",
+            "result": {
+              "status": "passed",
+              "duration": 395000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 42,
+            "name": "I see the promocional modal",
+            "result": {
+              "status": "passed",
+              "duration": 6149000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 43,
+            "name": "I do login using correct email and password mobile",
+            "result": {
+              "status": "passed",
+              "duration": 17820000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 44,
+            "name": "I Access the address page",
+            "result": {
+              "status": "passed",
+              "duration": 6459000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 45,
+            "name": "I edit an address",
+            "result": {
+              "status": "passed",
+              "duration": 10234000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 46,
+            "name": "I check if the address was edited correctly",
+            "result": {
+              "status": "passed",
+              "duration": 2803000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "my-account-tests-tf---mobile;at-samsungs10-check-my-orders",
+        "keyword": "Scenario",
+        "line": 50,
+        "name": "At SamsungS10 check my orders",
+        "tags": [
+          {
+            "name": "@MyAccountTest",
+            "line": 1
+          },
+          {
+            "name": "@Mobile",
+            "line": 1
+          },
+          {
+            "name": "@RegressionTest",
+            "line": 1
+          },
+          {
+            "name": "@MyAccount",
+            "line": 49
+          },
+          {
+            "name": "@Mobile",
+            "line": 49
+          },
+          {
+            "name": "@SamsungS10",
+            "line": 49
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 51,
+            "name": "At SamsungS10",
+            "result": {
+              "status": "passed",
+              "duration": 6245000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 52,
+            "name": "I'm on the home page",
+            "result": {
+              "status": "passed",
+              "duration": 1230000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 53,
+            "name": "I see the promocional modal",
+            "result": {
+              "status": "passed",
+              "duration": 6148000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 54,
+            "name": "I do login using correct email and password mobile",
+            "result": {
+              "status": "passed",
+              "duration": 17421000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 55,
+            "name": "I Access my orders page",
+            "result": {
+              "status": "passed",
+              "duration": 3913000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 56,
+            "name": "I check that I am in the correct page mobile",
+            "result": {
+              "status": "passed",
+              "duration": 2525000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

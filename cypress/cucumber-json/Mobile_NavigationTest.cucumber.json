@@ -1,0 +1,486 @@
+[
+  {
+    "description": "\tAs a customer, I want to test the navigation functionalities on TF - Mobile",
+    "keyword": "Feature",
+    "name": "Navigation tests TF - Mobile",
+    "line": 2,
+    "id": "navigation-tests-tf---mobile",
+    "tags": [
+      {
+        "name": "@NavigationTest",
+        "line": 1
+      },
+      {
+        "name": "@Mobile",
+        "line": 1
+      },
+      {
+        "name": "@RegressionTest",
+        "line": 1
+      }
+    ],
+    "uri": "Mobile_NavigationTest.feature",
+    "elements": [
+      {
+        "id": "navigation-tests-tf---mobile;test-the-redirection-of-the-tf-logo-from-plp-to-home---samsungs10",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Test the redirection of the TF logo from PLP to Home - SamsungS10",
+        "tags": [
+          {
+            "name": "@NavigationTest",
+            "line": 1
+          },
+          {
+            "name": "@Mobile",
+            "line": 1
+          },
+          {
+            "name": "@RegressionTest",
+            "line": 1
+          },
+          {
+            "name": "@Navigation",
+            "line": 5
+          },
+          {
+            "name": "@Mobile",
+            "line": 5
+          },
+          {
+            "name": "@SamsungS10",
+            "line": 5
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "At SamsungS10",
+            "result": {
+              "status": "passed",
+              "duration": 3600000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I'm on the product list page",
+            "result": {
+              "status": "passed",
+              "duration": 7638000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I see the promocional modal",
+            "result": {
+              "status": "passed",
+              "duration": 6165000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "the store logo has a link to homepage mobile",
+            "result": {
+              "status": "passed",
+              "duration": 10000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "navigation-tests-tf---mobile;test-the-redirection-of-the-tf-logo-from-home-to-home---samsungs10",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Test the redirection of the TF logo from Home to Home - SamsungS10",
+        "tags": [
+          {
+            "name": "@NavigationTest",
+            "line": 1
+          },
+          {
+            "name": "@Mobile",
+            "line": 1
+          },
+          {
+            "name": "@RegressionTest",
+            "line": 1
+          },
+          {
+            "name": "@Navigation",
+            "line": 12
+          },
+          {
+            "name": "@Mobile",
+            "line": 12
+          },
+          {
+            "name": "@SamsungS10",
+            "line": 12
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 14,
+            "name": "At SamsungS10",
+            "result": {
+              "status": "passed",
+              "duration": 6325000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "I'm on the home page",
+            "result": {
+              "status": "passed",
+              "duration": 1175000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "I see the promocional modal",
+            "result": {
+              "status": "passed",
+              "duration": 6124000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "the store logo has a link to homepage mobile",
+            "result": {
+              "status": "passed",
+              "duration": 9000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "navigation-tests-tf---mobile;test-the-redirection-of-the-tf-logo-from-pdp-to-home---samsungs10",
+        "keyword": "Scenario",
+        "line": 20,
+        "name": "Test the redirection of the TF logo from PDP to Home - SamsungS10",
+        "tags": [
+          {
+            "name": "@NavigationTest",
+            "line": 1
+          },
+          {
+            "name": "@Mobile",
+            "line": 1
+          },
+          {
+            "name": "@RegressionTest",
+            "line": 1
+          },
+          {
+            "name": "@Navigation",
+            "line": 19
+          },
+          {
+            "name": "@Mobile",
+            "line": 19
+          },
+          {
+            "name": "@SamsungS10",
+            "line": 19
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 21,
+            "name": "At SamsungS10",
+            "result": {
+              "status": "passed",
+              "duration": 6174000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "I'm on the product detail page",
+            "result": {
+              "status": "passed",
+              "duration": 5013000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "I see the promocional modal",
+            "result": {
+              "status": "passed",
+              "duration": 6159000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "the store logo has a link to homepage mobile",
+            "result": {
+              "status": "passed",
+              "duration": 9000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "navigation-tests-tf---mobile;validate-footer-tf-links---samsungs10",
+        "keyword": "Scenario",
+        "line": 27,
+        "name": "Validate footer TF links - SamsungS10",
+        "tags": [
+          {
+            "name": "@NavigationTest",
+            "line": 1
+          },
+          {
+            "name": "@Mobile",
+            "line": 1
+          },
+          {
+            "name": "@RegressionTest",
+            "line": 1
+          },
+          {
+            "name": "@Navigation",
+            "line": 26
+          },
+          {
+            "name": "@Mobile",
+            "line": 26
+          },
+          {
+            "name": "@SamsungS10",
+            "line": 26
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 28,
+            "name": "At SamsungS10",
+            "result": {
+              "status": "passed",
+              "duration": 6119000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 29,
+            "name": "I'm on the home page",
+            "result": {
+              "status": "passed",
+              "duration": 377000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 30,
+            "name": "I see the promocional modal",
+            "result": {
+              "status": "passed",
+              "duration": 6113000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 31,
+            "name": "I validate the footer TF links",
+            "result": {
+              "status": "passed",
+              "duration": 2573000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "navigation-tests-tf---mobile;test-the-search-bar-with-non-inexistent-product---samsungs10",
+        "keyword": "Scenario",
+        "line": 34,
+        "name": "Test the search bar with non inexistent product - SamsungS10",
+        "tags": [
+          {
+            "name": "@NavigationTest",
+            "line": 1
+          },
+          {
+            "name": "@Mobile",
+            "line": 1
+          },
+          {
+            "name": "@RegressionTest",
+            "line": 1
+          },
+          {
+            "name": "@Navigation",
+            "line": 33
+          },
+          {
+            "name": "@Mobile",
+            "line": 33
+          },
+          {
+            "name": "@SamsungS10",
+            "line": 33
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 35,
+            "name": "At SamsungS10",
+            "result": {
+              "status": "passed",
+              "duration": 6141000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 36,
+            "name": "I'm on the home page",
+            "result": {
+              "status": "passed",
+              "duration": 378000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 37,
+            "name": "I see the promocional modal",
+            "result": {
+              "status": "passed",
+              "duration": 6138000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 38,
+            "name": "I search for a non-existent product mobile",
+            "result": {
+              "status": "passed",
+              "duration": 3024000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 39,
+            "name": "No results should be displayed",
+            "result": {
+              "status": "passed",
+              "duration": 2516000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "navigation-tests-tf---mobile;browse-for-categories---samsungs10",
+        "keyword": "Scenario",
+        "line": 42,
+        "name": "Browse for categories - SamsungS10",
+        "tags": [
+          {
+            "name": "@NavigationTest",
+            "line": 1
+          },
+          {
+            "name": "@Mobile",
+            "line": 1
+          },
+          {
+            "name": "@RegressionTest",
+            "line": 1
+          },
+          {
+            "name": "@Navigation",
+            "line": 41
+          },
+          {
+            "name": "@Mobile",
+            "line": 41
+          },
+          {
+            "name": "@SamsungS10",
+            "line": 41
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 43,
+            "name": "At SamsungS10",
+            "result": {
+              "status": "passed",
+              "duration": 6105000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 44,
+            "name": "I'm on the home page",
+            "result": {
+              "status": "passed",
+              "duration": 1413000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 45,
+            "name": "I see the promocional modal",
+            "result": {
+              "status": "passed",
+              "duration": 6134000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 46,
+            "name": "I verify the categories available on menu mobile",
+            "result": {
+              "status": "passed",
+              "duration": 2332000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

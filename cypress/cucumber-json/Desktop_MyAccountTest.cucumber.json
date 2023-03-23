@@ -1,0 +1,531 @@
+[
+  {
+    "description": "\tAs a customer, I want to test the My Account functionalities on TF - Desktop",
+    "keyword": "Feature",
+    "name": "My Account tests TF - Desktop",
+    "line": 2,
+    "id": "my-account-tests-tf---desktop",
+    "tags": [
+      {
+        "name": "@MyAccountTest",
+        "line": 1
+      },
+      {
+        "name": "@Desktop",
+        "line": 1
+      },
+      {
+        "name": "@RegressionTest",
+        "line": 1
+      }
+    ],
+    "uri": "Desktop_MyAccountTest.feature",
+    "elements": [
+      {
+        "id": "my-account-tests-tf---desktop;at-desktop-edit-an-address",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "At Desktop edit an address",
+        "tags": [
+          {
+            "name": "@MyAccountTest",
+            "line": 1
+          },
+          {
+            "name": "@Desktop",
+            "line": 1
+          },
+          {
+            "name": "@RegressionTest",
+            "line": 1
+          },
+          {
+            "name": "@MyAccount",
+            "line": 7
+          },
+          {
+            "name": "@Desktop",
+            "line": 7
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "At Desktop",
+            "result": {
+              "status": "passed",
+              "duration": 2553000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I'm on the home page",
+            "result": {
+              "status": "passed",
+              "duration": 3638000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I see the promocional modal",
+            "result": {
+              "status": "passed",
+              "duration": 6115000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "I do login using correct email and password",
+            "result": {
+              "status": "passed",
+              "duration": 9422000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "I Access the address page",
+            "result": {
+              "status": "passed",
+              "duration": 8777000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "I edit an address",
+            "result": {
+              "status": "passed",
+              "duration": 10046000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "I check if the address was edited correctly",
+            "result": {
+              "status": "passed",
+              "duration": 2792000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "my-account-tests-tf---desktop;at-desktop-edit-personal-data---gender-f",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "At Desktop edit personal data - Gender F",
+        "tags": [
+          {
+            "name": "@MyAccountTest",
+            "line": 1
+          },
+          {
+            "name": "@Desktop",
+            "line": 1
+          },
+          {
+            "name": "@RegressionTest",
+            "line": 1
+          },
+          {
+            "name": "@MyAccount",
+            "line": 17
+          },
+          {
+            "name": "@Desktop",
+            "line": 17
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 19,
+            "name": "At Desktop",
+            "result": {
+              "status": "passed",
+              "duration": 5216000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "I'm on the home page",
+            "result": {
+              "status": "passed",
+              "duration": 2128000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "I see the promocional modal",
+            "result": {
+              "status": "passed",
+              "duration": 6098000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "I do login using correct email and password",
+            "result": {
+              "status": "passed",
+              "duration": 9352000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "I Access the profile page",
+            "result": {
+              "status": "passed",
+              "duration": 4782000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 24,
+            "name": "I edit my personal data - Gender F",
+            "result": {
+              "status": "passed",
+              "duration": 4743000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "I check if the personal data was edited correctly - Gender F",
+            "result": {
+              "status": "passed",
+              "duration": 110000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "my-account-tests-tf---desktop;at-desktop-edit-personal-data---gender-m",
+        "keyword": "Scenario",
+        "line": 28,
+        "name": "At Desktop edit personal data - Gender M",
+        "tags": [
+          {
+            "name": "@MyAccountTest",
+            "line": 1
+          },
+          {
+            "name": "@Desktop",
+            "line": 1
+          },
+          {
+            "name": "@RegressionTest",
+            "line": 1
+          },
+          {
+            "name": "@MyAccount",
+            "line": 27
+          },
+          {
+            "name": "@Desktop",
+            "line": 27
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 29,
+            "name": "At Desktop",
+            "result": {
+              "status": "passed",
+              "duration": 5121000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 30,
+            "name": "I'm on the home page",
+            "result": {
+              "status": "passed",
+              "duration": 2051000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 31,
+            "name": "I see the promocional modal",
+            "result": {
+              "status": "passed",
+              "duration": 6097000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 32,
+            "name": "I do login using correct email and password",
+            "result": {
+              "status": "passed",
+              "duration": 9396000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 33,
+            "name": "I Access the profile page",
+            "result": {
+              "status": "passed",
+              "duration": 4864000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 34,
+            "name": "I edit my personal data - Gender M",
+            "result": {
+              "status": "passed",
+              "duration": 4662000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 35,
+            "name": "I check if the personal data was edited correctly - Gender M",
+            "result": {
+              "status": "passed",
+              "duration": 110000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "my-account-tests-tf---desktop;at-desktop-check-my-orders",
+        "keyword": "Scenario",
+        "line": 38,
+        "name": "At Desktop check my orders",
+        "tags": [
+          {
+            "name": "@MyAccountTest",
+            "line": 1
+          },
+          {
+            "name": "@Desktop",
+            "line": 1
+          },
+          {
+            "name": "@RegressionTest",
+            "line": 1
+          },
+          {
+            "name": "@MyAccount",
+            "line": 37
+          },
+          {
+            "name": "@Desktop",
+            "line": 37
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 39,
+            "name": "At Desktop",
+            "result": {
+              "status": "passed",
+              "duration": 5200000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 40,
+            "name": "I'm on the home page",
+            "result": {
+              "status": "passed",
+              "duration": 1884000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 41,
+            "name": "I see the promocional modal",
+            "result": {
+              "status": "passed",
+              "duration": 6107000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 42,
+            "name": "I do login using correct email and password",
+            "result": {
+              "status": "passed",
+              "duration": 9320000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 43,
+            "name": "I Access my orders page",
+            "result": {
+              "status": "passed",
+              "duration": 4653000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 44,
+            "name": "I check that I am in the correct page",
+            "result": {
+              "status": "passed",
+              "duration": 2521000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "my-account-tests-tf---desktop;at-desktop-add-a-new-address",
+        "keyword": "Scenario",
+        "line": 48,
+        "name": "At Desktop add a new address",
+        "tags": [
+          {
+            "name": "@MyAccountTest",
+            "line": 1
+          },
+          {
+            "name": "@Desktop",
+            "line": 1
+          },
+          {
+            "name": "@RegressionTest",
+            "line": 1
+          },
+          {
+            "name": "@MyAccount",
+            "line": 47
+          },
+          {
+            "name": "@Desktop",
+            "line": 47
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 49,
+            "name": "At Desktop",
+            "result": {
+              "status": "passed",
+              "duration": 5114000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 50,
+            "name": "I'm on the home page",
+            "result": {
+              "status": "passed",
+              "duration": 1590000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 51,
+            "name": "I see the promocional modal",
+            "result": {
+              "status": "passed",
+              "duration": 6094000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 52,
+            "name": "I do login using correct email and password",
+            "result": {
+              "status": "passed",
+              "duration": 9444000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 53,
+            "name": "I Access the address page",
+            "result": {
+              "status": "passed",
+              "duration": 26815000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 54,
+            "name": "I access the new address page",
+            "result": {
+              "status": "passed",
+              "duration": 1599000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 55,
+            "name": "I add a new address",
+            "result": {
+              "status": "passed",
+              "duration": 6347000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 56,
+            "name": "I check if the address was added correctly",
+            "result": {
+              "status": "passed",
+              "duration": 2590000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

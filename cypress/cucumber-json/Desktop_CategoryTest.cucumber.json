@@ -1,0 +1,745 @@
+[
+  {
+    "description": "\tAs a customer, I want to test the category functionalities on TF - Desktop",
+    "keyword": "Feature",
+    "name": "Category tests TF - Desktop",
+    "line": 2,
+    "id": "category-tests-tf---desktop",
+    "tags": [
+      {
+        "name": "@CategoryTest",
+        "line": 1
+      },
+      {
+        "name": "@Desktop",
+        "line": 1
+      },
+      {
+        "name": "@RegressionTest",
+        "line": 1
+      }
+    ],
+    "uri": "Desktop_CategoryTest.feature",
+    "elements": [
+      {
+        "id": "category-tests-tf---desktop;validate-product-card",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Validate product card",
+        "tags": [
+          {
+            "name": "@CategoryTest",
+            "line": 1
+          },
+          {
+            "name": "@Desktop",
+            "line": 1
+          },
+          {
+            "name": "@RegressionTest",
+            "line": 1
+          },
+          {
+            "name": "@Category",
+            "line": 10
+          },
+          {
+            "name": "@Desktop",
+            "line": 10
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "At Desktop",
+            "result": {
+              "status": "passed",
+              "duration": 2586000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I'm on the product list page",
+            "result": {
+              "status": "passed",
+              "duration": 7220000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I see the promocional modal",
+            "result": {
+              "status": "passed",
+              "duration": 6138000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "The product card should be visible",
+            "result": {
+              "status": "passed",
+              "duration": 2543000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "category-tests-tf---desktop;validate-ordenation-by-mais-vendidos",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Validate ordenation by Mais Vendidos",
+        "tags": [
+          {
+            "name": "@CategoryTest",
+            "line": 1
+          },
+          {
+            "name": "@Desktop",
+            "line": 1
+          },
+          {
+            "name": "@RegressionTest",
+            "line": 1
+          },
+          {
+            "name": "@Category",
+            "line": 14
+          },
+          {
+            "name": "@Desktop",
+            "line": 14
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "At Desktop",
+            "result": {
+              "status": "passed",
+              "duration": 5138000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I'm on the product list page",
+            "result": {
+              "status": "passed",
+              "duration": 5797000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I see the promocional modal",
+            "result": {
+              "status": "passed",
+              "duration": 6136000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "I select the ordination by Mais Vendidos",
+            "result": {
+              "status": "passed",
+              "duration": 2610000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "I validate the page ordenation by Mais Vendidos",
+            "result": {
+              "status": "passed",
+              "duration": 2505000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "category-tests-tf---desktop;validate-ordenation-by-mais-recentes",
+        "keyword": "Scenario",
+        "line": 20,
+        "name": "Validate ordenation by Mais recentes",
+        "tags": [
+          {
+            "name": "@CategoryTest",
+            "line": 1
+          },
+          {
+            "name": "@Desktop",
+            "line": 1
+          },
+          {
+            "name": "@RegressionTest",
+            "line": 1
+          },
+          {
+            "name": "@Category",
+            "line": 19
+          },
+          {
+            "name": "@Desktop",
+            "line": 19
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "At Desktop",
+            "result": {
+              "status": "passed",
+              "duration": 5098000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I'm on the product list page",
+            "result": {
+              "status": "passed",
+              "duration": 3825000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I see the promocional modal",
+            "result": {
+              "status": "passed",
+              "duration": 6130000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 21,
+            "name": "I select the ordination by Mais recentes",
+            "result": {
+              "status": "passed",
+              "duration": 2606000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "I validate the page ordenation by Mais recentes",
+            "result": {
+              "status": "passed",
+              "duration": 2503000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "category-tests-tf---desktop;validate-ordenation-by-descontos",
+        "keyword": "Scenario",
+        "line": 25,
+        "name": "Validate ordenation by Descontos",
+        "tags": [
+          {
+            "name": "@CategoryTest",
+            "line": 1
+          },
+          {
+            "name": "@Desktop",
+            "line": 1
+          },
+          {
+            "name": "@RegressionTest",
+            "line": 1
+          },
+          {
+            "name": "@Category",
+            "line": 24
+          },
+          {
+            "name": "@Desktop",
+            "line": 24
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "At Desktop",
+            "result": {
+              "status": "passed",
+              "duration": 5077000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I'm on the product list page",
+            "result": {
+              "status": "passed",
+              "duration": 5719000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I see the promocional modal",
+            "result": {
+              "status": "passed",
+              "duration": 6147000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 26,
+            "name": "I select the ordination by Descontos",
+            "result": {
+              "status": "passed",
+              "duration": 2614000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 27,
+            "name": "I validate the page ordenation by Descontos",
+            "result": {
+              "status": "passed",
+              "duration": 2504000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "category-tests-tf---desktop;validate-ordenation-by-maior-preço",
+        "keyword": "Scenario",
+        "line": 30,
+        "name": "Validate ordenation by Maior preço",
+        "tags": [
+          {
+            "name": "@CategoryTest",
+            "line": 1
+          },
+          {
+            "name": "@Desktop",
+            "line": 1
+          },
+          {
+            "name": "@RegressionTest",
+            "line": 1
+          },
+          {
+            "name": "@Category",
+            "line": 29
+          },
+          {
+            "name": "@Desktop",
+            "line": 29
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "At Desktop",
+            "result": {
+              "status": "passed",
+              "duration": 5095000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I'm on the product list page",
+            "result": {
+              "status": "passed",
+              "duration": 3698000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I see the promocional modal",
+            "result": {
+              "status": "passed",
+              "duration": 6151000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 31,
+            "name": "I select the ordination by Maior preço",
+            "result": {
+              "status": "passed",
+              "duration": 2615000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 32,
+            "name": "I validate the page ordenation by Maior preço",
+            "result": {
+              "status": "passed",
+              "duration": 2503000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "category-tests-tf---desktop;validate-ordenation-by-menor-preço",
+        "keyword": "Scenario",
+        "line": 35,
+        "name": "Validate ordenation by Menor preço",
+        "tags": [
+          {
+            "name": "@CategoryTest",
+            "line": 1
+          },
+          {
+            "name": "@Desktop",
+            "line": 1
+          },
+          {
+            "name": "@RegressionTest",
+            "line": 1
+          },
+          {
+            "name": "@Category",
+            "line": 34
+          },
+          {
+            "name": "@Desktop",
+            "line": 34
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "At Desktop",
+            "result": {
+              "status": "passed",
+              "duration": 5142000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I'm on the product list page",
+            "result": {
+              "status": "passed",
+              "duration": 3816000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I see the promocional modal",
+            "result": {
+              "status": "passed",
+              "duration": 6144000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 36,
+            "name": "I select the ordination by Menor preço",
+            "result": {
+              "status": "passed",
+              "duration": 2619000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 37,
+            "name": "I validate the page ordenation by Menor preço",
+            "result": {
+              "status": "passed",
+              "duration": 2504000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "category-tests-tf---desktop;validate-ordenation-by-de-a-a-z",
+        "keyword": "Scenario",
+        "line": 40,
+        "name": "Validate ordenation by De A a Z",
+        "tags": [
+          {
+            "name": "@CategoryTest",
+            "line": 1
+          },
+          {
+            "name": "@Desktop",
+            "line": 1
+          },
+          {
+            "name": "@RegressionTest",
+            "line": 1
+          },
+          {
+            "name": "@Category",
+            "line": 39
+          },
+          {
+            "name": "@Desktop",
+            "line": 39
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "At Desktop",
+            "result": {
+              "status": "passed",
+              "duration": 5117000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I'm on the product list page",
+            "result": {
+              "status": "passed",
+              "duration": 3400000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I see the promocional modal",
+            "result": {
+              "status": "passed",
+              "duration": 6134000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 41,
+            "name": "I select the ordination by De A a Z",
+            "result": {
+              "status": "passed",
+              "duration": 2615000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 42,
+            "name": "I validate the page ordenation by De A a Z",
+            "result": {
+              "status": "passed",
+              "duration": 2504000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "category-tests-tf---desktop;validate-ordenation-by-de-z-a-a",
+        "keyword": "Scenario",
+        "line": 45,
+        "name": "Validate ordenation by De Z a A",
+        "tags": [
+          {
+            "name": "@CategoryTest",
+            "line": 1
+          },
+          {
+            "name": "@Desktop",
+            "line": 1
+          },
+          {
+            "name": "@RegressionTest",
+            "line": 1
+          },
+          {
+            "name": "@Category",
+            "line": 44
+          },
+          {
+            "name": "@Desktop",
+            "line": 44
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "At Desktop",
+            "result": {
+              "status": "passed",
+              "duration": 5096000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I'm on the product list page",
+            "result": {
+              "status": "passed",
+              "duration": 3140000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I see the promocional modal",
+            "result": {
+              "status": "passed",
+              "duration": 6172000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 46,
+            "name": "I select the ordination by De Z a A",
+            "result": {
+              "status": "passed",
+              "duration": 2627000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 47,
+            "name": "I validate the page ordenation by De Z a A",
+            "result": {
+              "status": "passed",
+              "duration": 2505000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "category-tests-tf---desktop;validate-button-mostrar-mais",
+        "keyword": "Scenario",
+        "line": 52,
+        "name": "Validate Button Mostrar Mais",
+        "tags": [
+          {
+            "name": "@CategoryTest",
+            "line": 1
+          },
+          {
+            "name": "@Desktop",
+            "line": 1
+          },
+          {
+            "name": "@RegressionTest",
+            "line": 1
+          },
+          {
+            "name": "@Category",
+            "line": 51
+          },
+          {
+            "name": "@Desktop",
+            "line": 51
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "At Desktop",
+            "result": {
+              "status": "passed",
+              "duration": 5070000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I'm on the product list page",
+            "result": {
+              "status": "passed",
+              "duration": 3263000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I see the promocional modal",
+            "result": {
+              "status": "passed",
+              "duration": 6137000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 53,
+            "name": "the button mostrar mais is visible",
+            "result": {
+              "status": "passed",
+              "duration": 273000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 54,
+            "name": "show more products",
+            "result": {
+              "status": "passed",
+              "duration": 5025000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

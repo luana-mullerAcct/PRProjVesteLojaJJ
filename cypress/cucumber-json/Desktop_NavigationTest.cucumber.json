@@ -1,0 +1,462 @@
+[
+  {
+    "description": "\tAs a customer, I want to test the navigation functionalities on TF - Desktop",
+    "keyword": "Feature",
+    "name": "Navigation tests TF - Desktop",
+    "line": 2,
+    "id": "navigation-tests-tf---desktop",
+    "tags": [
+      {
+        "name": "@NavigationTest",
+        "line": 1
+      },
+      {
+        "name": "@Desktop",
+        "line": 1
+      },
+      {
+        "name": "@RegressionTest",
+        "line": 1
+      }
+    ],
+    "uri": "Desktop_NavigationTest.feature",
+    "elements": [
+      {
+        "id": "navigation-tests-tf---desktop;validate-footer-tf-links",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Validate footer TF links",
+        "tags": [
+          {
+            "name": "@NavigationTest",
+            "line": 1
+          },
+          {
+            "name": "@Desktop",
+            "line": 1
+          },
+          {
+            "name": "@RegressionTest",
+            "line": 1
+          },
+          {
+            "name": "@Navigation",
+            "line": 8
+          },
+          {
+            "name": "@Desktop",
+            "line": 8
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "At Desktop",
+            "result": {
+              "status": "passed",
+              "duration": 2557000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I'm on the home page",
+            "result": {
+              "status": "passed",
+              "duration": 2082000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I see the promocional modal",
+            "result": {
+              "status": "passed",
+              "duration": 6152000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "I validate the footer TF links",
+            "result": {
+              "status": "passed",
+              "duration": 2730000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "navigation-tests-tf---desktop;test-the-redirection-of-the-tf-logo-from-home-to-home",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Test the redirection of the TF logo from Home to Home",
+        "tags": [
+          {
+            "name": "@NavigationTest",
+            "line": 1
+          },
+          {
+            "name": "@Desktop",
+            "line": 1
+          },
+          {
+            "name": "@RegressionTest",
+            "line": 1
+          },
+          {
+            "name": "@Navigation",
+            "line": 14
+          },
+          {
+            "name": "@Desktop",
+            "line": 14
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "At Desktop",
+            "result": {
+              "status": "passed",
+              "duration": 5115000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "I'm on the home page",
+            "result": {
+              "status": "passed",
+              "duration": 1809000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "I see the promocional modal",
+            "result": {
+              "status": "passed",
+              "duration": 6097000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "the store logo has a link to homepage",
+            "result": {
+              "status": "passed",
+              "duration": 16000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "navigation-tests-tf---desktop;test-the-redirection-of-the-tf-logo-from-plp-to-home",
+        "keyword": "Scenario",
+        "line": 21,
+        "name": "Test the redirection of the TF logo from PLP to Home",
+        "tags": [
+          {
+            "name": "@NavigationTest",
+            "line": 1
+          },
+          {
+            "name": "@Desktop",
+            "line": 1
+          },
+          {
+            "name": "@RegressionTest",
+            "line": 1
+          },
+          {
+            "name": "@Navigation",
+            "line": 20
+          },
+          {
+            "name": "@Desktop",
+            "line": 20
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "At Desktop",
+            "result": {
+              "status": "passed",
+              "duration": 5086000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "I'm on the product list page",
+            "result": {
+              "status": "passed",
+              "duration": 6575000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "I see the promocional modal",
+            "result": {
+              "status": "passed",
+              "duration": 6137000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "the store logo has a link to homepage",
+            "result": {
+              "status": "passed",
+              "duration": 11000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "navigation-tests-tf---desktop;test-the-redirection-of-the-tf-logo-from-pdp-to-home",
+        "keyword": "Scenario",
+        "line": 27,
+        "name": "Test the redirection of the TF logo from PDP to Home",
+        "tags": [
+          {
+            "name": "@NavigationTest",
+            "line": 1
+          },
+          {
+            "name": "@Desktop",
+            "line": 1
+          },
+          {
+            "name": "@RegressionTest",
+            "line": 1
+          },
+          {
+            "name": "@Navigation",
+            "line": 26
+          },
+          {
+            "name": "@Desktop",
+            "line": 26
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "At Desktop",
+            "result": {
+              "status": "passed",
+              "duration": 5066000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 28,
+            "name": "I'm on the product detail page",
+            "result": {
+              "status": "passed",
+              "duration": 5360000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 29,
+            "name": "I see the promocional modal",
+            "result": {
+              "status": "passed",
+              "duration": 6196000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 30,
+            "name": "the store logo has a link to homepage",
+            "result": {
+              "status": "passed",
+              "duration": 11000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "navigation-tests-tf---desktop;test-the-search-bar-with-non-inexistent-product",
+        "keyword": "Scenario",
+        "line": 33,
+        "name": "Test the search bar with non inexistent product",
+        "tags": [
+          {
+            "name": "@NavigationTest",
+            "line": 1
+          },
+          {
+            "name": "@Desktop",
+            "line": 1
+          },
+          {
+            "name": "@RegressionTest",
+            "line": 1
+          },
+          {
+            "name": "@Navigation",
+            "line": 32
+          },
+          {
+            "name": "@Desktop",
+            "line": 32
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "At Desktop",
+            "result": {
+              "status": "passed",
+              "duration": 5316000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 34,
+            "name": "I'm on the home page",
+            "result": {
+              "status": "passed",
+              "duration": 1572000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 35,
+            "name": "I see the promocional modal",
+            "result": {
+              "status": "passed",
+              "duration": 6164000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 36,
+            "name": "I search for a non-existent product",
+            "result": {
+              "status": "passed",
+              "duration": 2976000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 37,
+            "name": "No results should be displayed",
+            "result": {
+              "status": "passed",
+              "duration": 2509000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "navigation-tests-tf---desktop;browse-for-categories",
+        "keyword": "Scenario",
+        "line": 40,
+        "name": "Browse for categories",
+        "tags": [
+          {
+            "name": "@NavigationTest",
+            "line": 1
+          },
+          {
+            "name": "@Desktop",
+            "line": 1
+          },
+          {
+            "name": "@RegressionTest",
+            "line": 1
+          },
+          {
+            "name": "@Navigation",
+            "line": 39
+          },
+          {
+            "name": "@Desktop",
+            "line": 39
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "At Desktop",
+            "result": {
+              "status": "passed",
+              "duration": 5078000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 41,
+            "name": "I'm on the home page",
+            "result": {
+              "status": "passed",
+              "duration": 1087000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 42,
+            "name": "I see the promocional modal",
+            "result": {
+              "status": "passed",
+              "duration": 6098000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 43,
+            "name": "I verify the categories available on menu",
+            "result": {
+              "status": "passed",
+              "duration": 3171000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

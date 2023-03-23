@@ -1,0 +1,711 @@
+[
+  {
+    "description": "    As a customer, I want to test the cart functionalities on TF - Mobile",
+    "keyword": "Feature",
+    "name": "Cart tests TF - Mobile",
+    "line": 2,
+    "id": "cart-tests-tf---mobile",
+    "tags": [
+      {
+        "name": "@CartTest",
+        "line": 1
+      },
+      {
+        "name": "@Mobile",
+        "line": 1
+      },
+      {
+        "name": "@RegressionTest",
+        "line": 1
+      }
+    ],
+    "uri": "Mobile_CartTest.feature",
+    "elements": [
+      {
+        "id": "cart-tests-tf---mobile;at-samsungs10-add-item-to-cart",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "At SamsungS10 Add item to cart",
+        "tags": [
+          {
+            "name": "@CartTest",
+            "line": 1
+          },
+          {
+            "name": "@Mobile",
+            "line": 1
+          },
+          {
+            "name": "@RegressionTest",
+            "line": 1
+          },
+          {
+            "name": "@Cart",
+            "line": 6
+          },
+          {
+            "name": "@Mobile",
+            "line": 6
+          },
+          {
+            "name": "@SamsungS10",
+            "line": 6
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "At SamsungS10",
+            "result": {
+              "status": "passed",
+              "duration": 70586000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I'm on the product detail page",
+            "result": {
+              "status": "passed",
+              "duration": 3554000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I add the product to the cart at mobile",
+            "result": {
+              "status": "passed",
+              "duration": 21356000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "I validate if the product is in the cart",
+            "result": {
+              "status": "passed",
+              "duration": 9573000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "cart-tests-tf---mobile;at-samsungs10-add-two-items-to-cart",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "At SamsungS10 Add two items to cart",
+        "tags": [
+          {
+            "name": "@CartTest",
+            "line": 1
+          },
+          {
+            "name": "@Mobile",
+            "line": 1
+          },
+          {
+            "name": "@RegressionTest",
+            "line": 1
+          },
+          {
+            "name": "@Cart",
+            "line": 13
+          },
+          {
+            "name": "@Mobile",
+            "line": 13
+          },
+          {
+            "name": "@SamsungS10",
+            "line": 13
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 15,
+            "name": "At SamsungS10",
+            "result": {
+              "status": "passed",
+              "duration": 6244000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "I'm on the product detail page",
+            "result": {
+              "status": "passed",
+              "duration": 3786000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "I add two items in the cart mobile",
+            "result": {
+              "status": "passed",
+              "duration": 64606000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "I validate if the two items are in cart",
+            "result": {
+              "status": "passed",
+              "duration": 7675000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "cart-tests-tf---mobile;at-samsungs10-remove-item-from-the-cart",
+        "keyword": "Scenario",
+        "line": 21,
+        "name": "At SamsungS10 Remove item from the cart",
+        "tags": [
+          {
+            "name": "@CartTest",
+            "line": 1
+          },
+          {
+            "name": "@Mobile",
+            "line": 1
+          },
+          {
+            "name": "@RegressionTest",
+            "line": 1
+          },
+          {
+            "name": "@Cart",
+            "line": 20
+          },
+          {
+            "name": "@Mobile",
+            "line": 20
+          },
+          {
+            "name": "@SamsungS10",
+            "line": 20
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 22,
+            "name": "At SamsungS10",
+            "result": {
+              "status": "passed",
+              "duration": 6281000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "I have one item in the cart with 1 units",
+            "result": {
+              "status": "passed",
+              "duration": 6488000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 24,
+            "name": "I remove the item from cart",
+            "result": {
+              "status": "passed",
+              "duration": 5187000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "I validate if the product is not in the cart",
+            "result": {
+              "status": "passed",
+              "duration": 5053000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "cart-tests-tf---mobile;at-samsungs10-clear-all-cart",
+        "keyword": "Scenario",
+        "line": 28,
+        "name": "At SamsungS10 Clear all cart",
+        "tags": [
+          {
+            "name": "@CartTest",
+            "line": 1
+          },
+          {
+            "name": "@Mobile",
+            "line": 1
+          },
+          {
+            "name": "@RegressionTest",
+            "line": 1
+          },
+          {
+            "name": "@Cart",
+            "line": 27
+          },
+          {
+            "name": "@Mobile",
+            "line": 27
+          },
+          {
+            "name": "@SamsungS10",
+            "line": 27
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 29,
+            "name": "At SamsungS10",
+            "result": {
+              "status": "passed",
+              "duration": 6197000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 30,
+            "name": "I have two items in the cart with 1 units each one",
+            "result": {
+              "status": "passed",
+              "duration": 5258000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 31,
+            "name": "I remove all items from cart",
+            "result": {
+              "status": "passed",
+              "duration": 5251000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 32,
+            "name": "I validate if is clean cart",
+            "result": {
+              "status": "passed",
+              "duration": 694000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "cart-tests-tf---mobile;at-samsungs10-add-item-with-two-quantity",
+        "keyword": "Scenario",
+        "line": 36,
+        "name": "At SamsungS10 Add item with two quantity",
+        "tags": [
+          {
+            "name": "@CartTest",
+            "line": 1
+          },
+          {
+            "name": "@Mobile",
+            "line": 1
+          },
+          {
+            "name": "@RegressionTest",
+            "line": 1
+          },
+          {
+            "name": "@Cart",
+            "line": 35
+          },
+          {
+            "name": "@Mobile",
+            "line": 35
+          },
+          {
+            "name": "@SamsungS10",
+            "line": 35
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 37,
+            "name": "At SamsungS10",
+            "result": {
+              "status": "passed",
+              "duration": 6183000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 38,
+            "name": "I have one item in the cart with 1 units",
+            "result": {
+              "status": "passed",
+              "duration": 4468000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 39,
+            "name": "I add the quantity for 4 units",
+            "result": {
+              "status": "passed",
+              "duration": 17850000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 40,
+            "name": "I validate if the quantity has been changed to 4",
+            "result": {
+              "status": "passed",
+              "duration": 5037000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "cart-tests-tf---mobile;at-samsungs10-reduce-item-quantity-in-the-cart",
+        "keyword": "Scenario",
+        "line": 43,
+        "name": "At SamsungS10 Reduce item quantity in the cart",
+        "tags": [
+          {
+            "name": "@CartTest",
+            "line": 1
+          },
+          {
+            "name": "@Mobile",
+            "line": 1
+          },
+          {
+            "name": "@RegressionTest",
+            "line": 1
+          },
+          {
+            "name": "@Cart",
+            "line": 42
+          },
+          {
+            "name": "@Mobile",
+            "line": 42
+          },
+          {
+            "name": "@SamsungS10",
+            "line": 42
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 44,
+            "name": "At SamsungS10",
+            "result": {
+              "status": "passed",
+              "duration": 6211000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 45,
+            "name": "I have one item in the cart with 5 units",
+            "result": {
+              "status": "passed",
+              "duration": 5063000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 46,
+            "name": "I reduce the quantity for 2 units",
+            "result": {
+              "status": "passed",
+              "duration": 17868000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 47,
+            "name": "I validate if the quantity has been changed to 2",
+            "result": {
+              "status": "passed",
+              "duration": 5066000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "cart-tests-tf---mobile;at-samsungs10-calculate-valid-shipping-at-cart",
+        "keyword": "Scenario",
+        "line": 50,
+        "name": "At SamsungS10 Calculate valid shipping at Cart",
+        "tags": [
+          {
+            "name": "@CartTest",
+            "line": 1
+          },
+          {
+            "name": "@Mobile",
+            "line": 1
+          },
+          {
+            "name": "@RegressionTest",
+            "line": 1
+          },
+          {
+            "name": "@Cart",
+            "line": 49
+          },
+          {
+            "name": "@Mobile",
+            "line": 49
+          },
+          {
+            "name": "@SamsungS10",
+            "line": 49
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 51,
+            "name": "At SamsungS10",
+            "result": {
+              "status": "passed",
+              "duration": 6219000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 52,
+            "name": "I have one item in the cart with 1 units",
+            "result": {
+              "status": "passed",
+              "duration": 5791000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 53,
+            "name": "I calculate valid shipping",
+            "result": {
+              "status": "passed",
+              "duration": 3860000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 54,
+            "name": "The shipping table should be displayed at Cart",
+            "result": {
+              "status": "passed",
+              "duration": 854000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "cart-tests-tf---mobile;at-samsungs10-invalid-shipping-at-cart",
+        "keyword": "Scenario",
+        "line": 57,
+        "name": "At SamsungS10 invalid shipping at Cart",
+        "tags": [
+          {
+            "name": "@CartTest",
+            "line": 1
+          },
+          {
+            "name": "@Mobile",
+            "line": 1
+          },
+          {
+            "name": "@RegressionTest",
+            "line": 1
+          },
+          {
+            "name": "@Cart",
+            "line": 56
+          },
+          {
+            "name": "@Mobile",
+            "line": 56
+          },
+          {
+            "name": "@SamsungS10",
+            "line": 56
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 58,
+            "name": "At SamsungS10",
+            "result": {
+              "status": "passed",
+              "duration": 6199000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 59,
+            "name": "I have one item in the cart with 1 units",
+            "result": {
+              "status": "passed",
+              "duration": 5114000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 60,
+            "name": "I calculate invalid shipping",
+            "result": {
+              "status": "passed",
+              "duration": 3869000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 61,
+            "name": "The shipping table should not be displayed at Cart",
+            "result": {
+              "status": "passed",
+              "duration": 18000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "cart-tests-tf---mobile;at-samsungs10-calculate-alphanumeric-shipping-at-cart",
+        "keyword": "Scenario",
+        "line": 67,
+        "name": "At SamsungS10 calculate alphanumeric shipping at Cart",
+        "tags": [
+          {
+            "name": "@CartTest",
+            "line": 1
+          },
+          {
+            "name": "@Mobile",
+            "line": 1
+          },
+          {
+            "name": "@RegressionTest",
+            "line": 1
+          },
+          {
+            "name": "@Cart",
+            "line": 66
+          },
+          {
+            "name": "@Mobile",
+            "line": 66
+          },
+          {
+            "name": "@SamsungS10",
+            "line": 66
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 68,
+            "name": "At SamsungS10",
+            "result": {
+              "status": "passed",
+              "duration": 6276000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 69,
+            "name": "I see the promocional modal",
+            "result": {
+              "status": "passed",
+              "duration": 6042000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 70,
+            "name": "I have one item in the cart with 1 units",
+            "result": {
+              "status": "passed",
+              "duration": 5539000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 71,
+            "name": "I calculate alphanumeric shipping",
+            "result": {
+              "status": "passed",
+              "duration": 3930000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 72,
+            "name": "The shipping should be invalid",
+            "result": {
+              "status": "passed",
+              "duration": 10000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

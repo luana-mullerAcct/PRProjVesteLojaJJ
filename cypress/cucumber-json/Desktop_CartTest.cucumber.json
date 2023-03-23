@@ -1,0 +1,836 @@
+[
+  {
+    "description": "    As a customer, I want to test the cart functionalities on TF - Desktop",
+    "keyword": "Feature",
+    "name": "Cart tests TF - Desktop",
+    "line": 2,
+    "id": "cart-tests-tf---desktop",
+    "tags": [
+      {
+        "name": "@CartTest",
+        "line": 1
+      },
+      {
+        "name": "@Desktop",
+        "line": 1
+      },
+      {
+        "name": "@RegressionTest",
+        "line": 1
+      }
+    ],
+    "uri": "Desktop_CartTest.feature",
+    "elements": [
+      {
+        "id": "cart-tests-tf---desktop;add-item-to-cart",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Add item to cart",
+        "tags": [
+          {
+            "name": "@CartTest",
+            "line": 1
+          },
+          {
+            "name": "@Desktop",
+            "line": 1
+          },
+          {
+            "name": "@RegressionTest",
+            "line": 1
+          },
+          {
+            "name": "@Cart",
+            "line": 8
+          },
+          {
+            "name": "@Desktop",
+            "line": 8
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "At Desktop",
+            "result": {
+              "status": "passed",
+              "duration": 2564000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I'm on the product detail page",
+            "result": {
+              "status": "passed",
+              "duration": 4899000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I see the promocional modal",
+            "result": {
+              "status": "passed",
+              "duration": 6140000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "I add the product to the cart",
+            "result": {
+              "status": "passed",
+              "duration": 19015000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "I validate if the product is in the cart",
+            "result": {
+              "status": "passed",
+              "duration": 5034000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "cart-tests-tf---desktop;add-two-items-to-cart",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "Add two items to cart",
+        "tags": [
+          {
+            "name": "@CartTest",
+            "line": 1
+          },
+          {
+            "name": "@Desktop",
+            "line": 1
+          },
+          {
+            "name": "@RegressionTest",
+            "line": 1
+          },
+          {
+            "name": "@Cart",
+            "line": 15
+          },
+          {
+            "name": "@Desktop",
+            "line": 15
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "At Desktop",
+            "result": {
+              "status": "passed",
+              "duration": 5110000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "I see the promocional modal",
+            "result": {
+              "status": "passed",
+              "duration": 6009000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "I'm on the product detail page",
+            "result": {
+              "status": "passed",
+              "duration": 4301000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "I add two items in the cart",
+            "result": {
+              "status": "passed",
+              "duration": 52047000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "I validate if the two items are in cart",
+            "result": {
+              "status": "passed",
+              "duration": 7613000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "cart-tests-tf---desktop;add-item-with-two-units",
+        "keyword": "Scenario",
+        "line": 23,
+        "name": "Add item with two units",
+        "tags": [
+          {
+            "name": "@CartTest",
+            "line": 1
+          },
+          {
+            "name": "@Desktop",
+            "line": 1
+          },
+          {
+            "name": "@RegressionTest",
+            "line": 1
+          },
+          {
+            "name": "@Cart",
+            "line": 22
+          },
+          {
+            "name": "@Desktop",
+            "line": 22
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "At Desktop",
+            "result": {
+              "status": "passed",
+              "duration": 5186000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "I see the promocional modal",
+            "result": {
+              "status": "passed",
+              "duration": 6027000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "I have one item in the cart with 1 units",
+            "result": {
+              "status": "passed",
+              "duration": 31486000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 26,
+            "name": "I add the quantity for 4 units",
+            "result": {
+              "status": "passed",
+              "duration": 17890000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 27,
+            "name": "I validate if the quantity has been changed to 4",
+            "result": {
+              "status": "passed",
+              "duration": 5018000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "cart-tests-tf---desktop;calculate-invalid-shipping-at-cart",
+        "keyword": "Scenario",
+        "line": 30,
+        "name": "Calculate invalid shipping at Cart",
+        "tags": [
+          {
+            "name": "@CartTest",
+            "line": 1
+          },
+          {
+            "name": "@Desktop",
+            "line": 1
+          },
+          {
+            "name": "@RegressionTest",
+            "line": 1
+          },
+          {
+            "name": "@Cart",
+            "line": 29
+          },
+          {
+            "name": "@Desktop",
+            "line": 29
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "At Desktop",
+            "result": {
+              "status": "passed",
+              "duration": 5091000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 31,
+            "name": "I see the promocional modal",
+            "result": {
+              "status": "passed",
+              "duration": 6018000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 32,
+            "name": "I have one item in the cart with 1 units",
+            "result": {
+              "status": "passed",
+              "duration": 2628000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 33,
+            "name": "I calculate invalid shipping",
+            "result": {
+              "status": "passed",
+              "duration": 4743000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 34,
+            "name": "The shipping table should not be displayed at Cart",
+            "result": {
+              "status": "passed",
+              "duration": 14000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "cart-tests-tf---desktop;add-invalid-discount-coupon",
+        "keyword": "Scenario",
+        "line": 37,
+        "name": "Add invalid discount coupon",
+        "tags": [
+          {
+            "name": "@CartTest",
+            "line": 1
+          },
+          {
+            "name": "@Desktop",
+            "line": 1
+          },
+          {
+            "name": "@RegressionTest",
+            "line": 1
+          },
+          {
+            "name": "@Cart",
+            "line": 36
+          },
+          {
+            "name": "@Desktop",
+            "line": 36
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "At Desktop",
+            "result": {
+              "status": "passed",
+              "duration": 5115000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 38,
+            "name": "I see the promocional modal",
+            "result": {
+              "status": "passed",
+              "duration": 6009000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 39,
+            "name": "I have one item in the cart with 1 units",
+            "result": {
+              "status": "passed",
+              "duration": 5234000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 40,
+            "name": "I type a invalid discount coupon",
+            "result": {
+              "status": "passed",
+              "duration": 3791000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 41,
+            "name": "The discount coupon should be invalid",
+            "result": {
+              "status": "passed",
+              "duration": 8022000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "cart-tests-tf---desktop;remove-item-from-the-cart",
+        "keyword": "Scenario",
+        "line": 44,
+        "name": "Remove item from the cart",
+        "tags": [
+          {
+            "name": "@CartTest",
+            "line": 1
+          },
+          {
+            "name": "@Desktop",
+            "line": 1
+          },
+          {
+            "name": "@RegressionTest",
+            "line": 1
+          },
+          {
+            "name": "@Cart",
+            "line": 43
+          },
+          {
+            "name": "@Desktop",
+            "line": 43
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "At Desktop",
+            "result": {
+              "status": "passed",
+              "duration": 5074000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 45,
+            "name": "I see the promocional modal",
+            "result": {
+              "status": "passed",
+              "duration": 6018000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 46,
+            "name": "I have one item in the cart with 1 units",
+            "result": {
+              "status": "passed",
+              "duration": 37741000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 47,
+            "name": "I remove the item from cart",
+            "result": {
+              "status": "passed",
+              "duration": 5161000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 48,
+            "name": "I validate if the product is not in the cart",
+            "result": {
+              "status": "passed",
+              "duration": 5022000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "cart-tests-tf---desktop;clear-all-cart",
+        "keyword": "Scenario",
+        "line": 51,
+        "name": "Clear all cart",
+        "tags": [
+          {
+            "name": "@CartTest",
+            "line": 1
+          },
+          {
+            "name": "@Desktop",
+            "line": 1
+          },
+          {
+            "name": "@RegressionTest",
+            "line": 1
+          },
+          {
+            "name": "@Cart",
+            "line": 50
+          },
+          {
+            "name": "@Desktop",
+            "line": 50
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "At Desktop",
+            "result": {
+              "status": "passed",
+              "duration": 5138000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 52,
+            "name": "I see the promocional modal",
+            "result": {
+              "status": "passed",
+              "duration": 6019000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 53,
+            "name": "I have two items in the cart with 1 units each one",
+            "result": {
+              "status": "passed",
+              "duration": 7564000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 54,
+            "name": "I remove all items from cart",
+            "result": {
+              "status": "passed",
+              "duration": 5248000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 55,
+            "name": "I validate if is clean cart",
+            "result": {
+              "status": "passed",
+              "duration": 610000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "cart-tests-tf---desktop;reduce-item-units-in-the-cart",
+        "keyword": "Scenario",
+        "line": 58,
+        "name": "Reduce item units in the cart",
+        "tags": [
+          {
+            "name": "@CartTest",
+            "line": 1
+          },
+          {
+            "name": "@Desktop",
+            "line": 1
+          },
+          {
+            "name": "@RegressionTest",
+            "line": 1
+          },
+          {
+            "name": "@Cart",
+            "line": 57
+          },
+          {
+            "name": "@Desktop",
+            "line": 57
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "At Desktop",
+            "result": {
+              "status": "passed",
+              "duration": 5082000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 59,
+            "name": "I see the promocional modal",
+            "result": {
+              "status": "passed",
+              "duration": 6022000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 60,
+            "name": "I have one item in the cart with 5 units",
+            "result": {
+              "status": "passed",
+              "duration": 7387000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 61,
+            "name": "I reduce the quantity for 2 units",
+            "result": {
+              "status": "passed",
+              "duration": 17732000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 62,
+            "name": "I validate if the quantity has been changed to 2",
+            "result": {
+              "status": "passed",
+              "duration": 5029000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "cart-tests-tf---desktop;calculate-valid-shipping-at-cart",
+        "keyword": "Scenario",
+        "line": 65,
+        "name": "Calculate valid shipping at Cart",
+        "tags": [
+          {
+            "name": "@CartTest",
+            "line": 1
+          },
+          {
+            "name": "@Desktop",
+            "line": 1
+          },
+          {
+            "name": "@RegressionTest",
+            "line": 1
+          },
+          {
+            "name": "@Cart",
+            "line": 64
+          },
+          {
+            "name": "@Desktop",
+            "line": 64
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "At Desktop",
+            "result": {
+              "status": "passed",
+              "duration": 5085000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 66,
+            "name": "I see the promocional modal",
+            "result": {
+              "status": "passed",
+              "duration": 6004000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 67,
+            "name": "I have one item in the cart with 1 units",
+            "result": {
+              "status": "passed",
+              "duration": 3676000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 68,
+            "name": "I calculate valid shipping",
+            "result": {
+              "status": "passed",
+              "duration": 6750000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 69,
+            "name": "The shipping table should be displayed at Cart",
+            "result": {
+              "status": "passed",
+              "duration": 2433000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "cart-tests-tf---desktop;calculate-alphanumeric-shipping-at-cart",
+        "keyword": "Scenario",
+        "line": 74,
+        "name": "Calculate alphanumeric shipping at Cart",
+        "tags": [
+          {
+            "name": "@CartTest",
+            "line": 1
+          },
+          {
+            "name": "@Desktop",
+            "line": 1
+          },
+          {
+            "name": "@RegressionTest",
+            "line": 1
+          },
+          {
+            "name": "@Cart",
+            "line": 73
+          },
+          {
+            "name": "@Desktop",
+            "line": 73
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "At Desktop",
+            "result": {
+              "status": "passed",
+              "duration": 5104000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 75,
+            "name": "I see the promocional modal",
+            "result": {
+              "status": "passed",
+              "duration": 6031000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 76,
+            "name": "I have one item in the cart with 1 units",
+            "result": {
+              "status": "passed",
+              "duration": 6285000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 77,
+            "name": "I calculate alphanumeric shipping",
+            "result": {
+              "status": "passed",
+              "duration": 3861000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 78,
+            "name": "The shipping should be invalid",
+            "result": {
+              "status": "passed",
+              "duration": 8000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

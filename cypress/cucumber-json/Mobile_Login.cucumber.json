@@ -1,0 +1,556 @@
+[
+  {
+    "description": "    As a customer, I want to test the login functionalities on TF - Mobile",
+    "keyword": "Feature",
+    "name": "Login tests TF - Mobile",
+    "line": 2,
+    "id": "login-tests-tf---mobile",
+    "tags": [
+      {
+        "name": "@LoginTest",
+        "line": 1
+      },
+      {
+        "name": "@Mobile",
+        "line": 1
+      },
+      {
+        "name": "@RegressionTest",
+        "line": 1
+      }
+    ],
+    "uri": "Mobile_Login.feature",
+    "elements": [
+      {
+        "id": "login-tests-tf---mobile;at-samsungs10-login-with-valid-e-mail-and-password",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "At SamsungS10 Login with valid e-mail and password",
+        "tags": [
+          {
+            "name": "@LoginTest",
+            "line": 1
+          },
+          {
+            "name": "@Mobile",
+            "line": 1
+          },
+          {
+            "name": "@RegressionTest",
+            "line": 1
+          },
+          {
+            "name": "@Login",
+            "line": 6
+          },
+          {
+            "name": "@Mobile",
+            "line": 6
+          },
+          {
+            "name": "@SamsungS10",
+            "line": 6
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "At SamsungS10",
+            "result": {
+              "status": "passed",
+              "duration": 3608000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I'm on the home page",
+            "result": {
+              "status": "passed",
+              "duration": 2564000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I see the promocional modal",
+            "result": {
+              "status": "passed",
+              "duration": 6121000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "I do login using correct email and password mobile",
+            "result": {
+              "status": "passed",
+              "duration": 18260000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "I must be logged on the site mobile",
+            "result": {
+              "status": "passed",
+              "duration": 32484000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "login-tests-tf---mobile;at-samsungs10-login-with-incorrect-password",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "At SamsungS10 Login with incorrect password",
+        "tags": [
+          {
+            "name": "@LoginTest",
+            "line": 1
+          },
+          {
+            "name": "@Mobile",
+            "line": 1
+          },
+          {
+            "name": "@RegressionTest",
+            "line": 1
+          },
+          {
+            "name": "@Login",
+            "line": 14
+          },
+          {
+            "name": "@Mobile",
+            "line": 14
+          },
+          {
+            "name": "@SamsungS10",
+            "line": 14
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 16,
+            "name": "At SamsungS10",
+            "result": {
+              "status": "passed",
+              "duration": 6189000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "I'm on the home page",
+            "result": {
+              "status": "passed",
+              "duration": 1135000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "I see the promocional modal",
+            "result": {
+              "status": "passed",
+              "duration": 6131000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "I do login using incorrect password mobile",
+            "result": {
+              "status": "passed",
+              "duration": 17727000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "Must be informed that the data access are wrong mobile",
+            "result": {
+              "status": "passed",
+              "duration": 45000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "login-tests-tf---mobile;at-samsungs10-login-with-incorrect-email",
+        "keyword": "Scenario",
+        "line": 23,
+        "name": "At SamsungS10 Login with incorrect email",
+        "tags": [
+          {
+            "name": "@LoginTest",
+            "line": 1
+          },
+          {
+            "name": "@Mobile",
+            "line": 1
+          },
+          {
+            "name": "@RegressionTest",
+            "line": 1
+          },
+          {
+            "name": "@Login",
+            "line": 22
+          },
+          {
+            "name": "@Mobile",
+            "line": 22
+          },
+          {
+            "name": "@SamsungS10",
+            "line": 22
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 24,
+            "name": "At SamsungS10",
+            "result": {
+              "status": "passed",
+              "duration": 6273000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "I'm on the home page",
+            "result": {
+              "status": "passed",
+              "duration": 701000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 26,
+            "name": "I see the promocional modal",
+            "result": {
+              "status": "passed",
+              "duration": 6164000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 27,
+            "name": "I do login using incorrect email mobile",
+            "result": {
+              "status": "passed",
+              "duration": 18067000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 28,
+            "name": "Must be informed that the data access are wrong mobile",
+            "result": {
+              "status": "passed",
+              "duration": 52000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "login-tests-tf---mobile;at-samsungs10-login-with-incorrect-email-and-password",
+        "keyword": "Scenario",
+        "line": 32,
+        "name": "At SamsungS10 Login with incorrect email and password",
+        "tags": [
+          {
+            "name": "@LoginTest",
+            "line": 1
+          },
+          {
+            "name": "@Mobile",
+            "line": 1
+          },
+          {
+            "name": "@RegressionTest",
+            "line": 1
+          },
+          {
+            "name": "@Login",
+            "line": 31
+          },
+          {
+            "name": "@Mobile",
+            "line": 31
+          },
+          {
+            "name": "@SamsungS10",
+            "line": 31
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 33,
+            "name": "At SamsungS10",
+            "result": {
+              "status": "passed",
+              "duration": 6249000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 34,
+            "name": "I'm on the home page",
+            "result": {
+              "status": "passed",
+              "duration": 910000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 35,
+            "name": "I see the promocional modal",
+            "result": {
+              "status": "passed",
+              "duration": 6125000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 36,
+            "name": "I do login using incorrect email and password mobile",
+            "result": {
+              "status": "passed",
+              "duration": 17589000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 37,
+            "name": "Must be informed that the data access are wrong mobile",
+            "result": {
+              "status": "passed",
+              "duration": 65000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "login-tests-tf---mobile;login-with-invalid-email-format---samsungs10",
+        "keyword": "Scenario",
+        "line": 40,
+        "name": "Login with invalid email format - SamsungS10",
+        "tags": [
+          {
+            "name": "@LoginTest",
+            "line": 1
+          },
+          {
+            "name": "@Mobile",
+            "line": 1
+          },
+          {
+            "name": "@RegressionTest",
+            "line": 1
+          },
+          {
+            "name": "@Login",
+            "line": 39
+          },
+          {
+            "name": "@Mobile",
+            "line": 39
+          },
+          {
+            "name": "@SamsungS10",
+            "line": 39
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 41,
+            "name": "At SamsungS10",
+            "result": {
+              "status": "passed",
+              "duration": 6202000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 42,
+            "name": "I'm on the home page",
+            "result": {
+              "status": "passed",
+              "duration": 446000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 43,
+            "name": "I see the promocional modal",
+            "result": {
+              "status": "passed",
+              "duration": 6120000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 44,
+            "name": "I do login using invalid format email mobile",
+            "result": {
+              "status": "passed",
+              "duration": 17530000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 45,
+            "name": "Must be informed that the email is in a invalid format",
+            "result": {
+              "status": "passed",
+              "duration": 49000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "login-tests-tf---mobile;at-samsungs10-loggout",
+        "keyword": "Scenario",
+        "line": 48,
+        "name": "At SamsungS10 Loggout",
+        "tags": [
+          {
+            "name": "@LoginTest",
+            "line": 1
+          },
+          {
+            "name": "@Mobile",
+            "line": 1
+          },
+          {
+            "name": "@RegressionTest",
+            "line": 1
+          },
+          {
+            "name": "@Login",
+            "line": 47
+          },
+          {
+            "name": "@Mobile",
+            "line": 47
+          },
+          {
+            "name": "@SamsungS10",
+            "line": 47
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 49,
+            "name": "At SamsungS10",
+            "result": {
+              "status": "passed",
+              "duration": 6195000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 50,
+            "name": "I'm on the home page",
+            "result": {
+              "status": "passed",
+              "duration": 1283000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 51,
+            "name": "I see the promocional modal",
+            "result": {
+              "status": "passed",
+              "duration": 6143000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 52,
+            "name": "I do login using correct email and password mobile",
+            "result": {
+              "status": "passed",
+              "duration": 17531000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 53,
+            "name": "I must be logged on the site mobile",
+            "result": {
+              "status": "passed",
+              "duration": 21397000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 54,
+            "name": "I do Loggout from the site mobile",
+            "result": {
+              "status": "passed",
+              "duration": 21016000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 55,
+            "name": "I must not be logged into the site mobile",
+            "result": {
+              "status": "passed",
+              "duration": 5435000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

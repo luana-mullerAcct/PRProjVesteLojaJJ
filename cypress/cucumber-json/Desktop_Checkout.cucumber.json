@@ -1,0 +1,653 @@
+[
+  {
+    "description": "\tAs a customer, I want to test the checkout functionalities on TF - Desktop",
+    "keyword": "Feature",
+    "name": "Checkout tests TF - Desktop",
+    "line": 2,
+    "id": "checkout-tests-tf---desktop",
+    "tags": [
+      {
+        "name": "@Checkout",
+        "line": 1
+      },
+      {
+        "name": "@Desktop",
+        "line": 1
+      },
+      {
+        "name": "@RegressionTest",
+        "line": 1
+      }
+    ],
+    "uri": "Desktop_Checkout.feature",
+    "elements": [
+      {
+        "id": "checkout-tests-tf---desktop;validade-mandatory-document-alert-is-displayed",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Validade mandatory document alert is displayed",
+        "tags": [
+          {
+            "name": "@Checkout",
+            "line": 1
+          },
+          {
+            "name": "@Desktop",
+            "line": 1
+          },
+          {
+            "name": "@RegressionTest",
+            "line": 1
+          },
+          {
+            "name": "@Checkout",
+            "line": 11
+          },
+          {
+            "name": "@Desktop",
+            "line": 11
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "At Desktop",
+            "result": {
+              "status": "passed",
+              "duration": 2572000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I have one item in the cart with 1 units",
+            "result": {
+              "status": "passed",
+              "duration": 3794000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I proceed to checkout",
+            "result": {
+              "status": "passed",
+              "duration": 2276000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "I fill in the checkout data without document",
+            "result": {
+              "status": "passed",
+              "duration": 4288000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "mandatory document alert is displayed",
+            "result": {
+              "status": "passed",
+              "duration": 1013000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "checkout-tests-tf---desktop;validade-mandatory-firstname-alert-is-displayed",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "Validade mandatory firstname alert is displayed",
+        "tags": [
+          {
+            "name": "@Checkout",
+            "line": 1
+          },
+          {
+            "name": "@Desktop",
+            "line": 1
+          },
+          {
+            "name": "@RegressionTest",
+            "line": 1
+          },
+          {
+            "name": "@Checkout",
+            "line": 16
+          },
+          {
+            "name": "@Desktop",
+            "line": 16
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "At Desktop",
+            "result": {
+              "status": "passed",
+              "duration": 5151000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I have one item in the cart with 1 units",
+            "result": {
+              "status": "passed",
+              "duration": 7793000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I proceed to checkout",
+            "result": {
+              "status": "passed",
+              "duration": 2140000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "I fill in the checkout data without firstname",
+            "result": {
+              "status": "passed",
+              "duration": 4196000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "mandatory firstname alert is displayed",
+            "result": {
+              "status": "passed",
+              "duration": 1014000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "checkout-tests-tf---desktop;validade-mandatory-lastname-alert-is-displayed",
+        "keyword": "Scenario",
+        "line": 22,
+        "name": "Validade mandatory lastname alert is displayed",
+        "tags": [
+          {
+            "name": "@Checkout",
+            "line": 1
+          },
+          {
+            "name": "@Desktop",
+            "line": 1
+          },
+          {
+            "name": "@RegressionTest",
+            "line": 1
+          },
+          {
+            "name": "@Checkout",
+            "line": 21
+          },
+          {
+            "name": "@Desktop",
+            "line": 21
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "At Desktop",
+            "result": {
+              "status": "passed",
+              "duration": 5095000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I have one item in the cart with 1 units",
+            "result": {
+              "status": "passed",
+              "duration": 5788000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I proceed to checkout",
+            "result": {
+              "status": "passed",
+              "duration": 2114000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "I fill in the checkout data without lastname",
+            "result": {
+              "status": "passed",
+              "duration": 4208000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "mandatory lastname alert is displayed",
+            "result": {
+              "status": "passed",
+              "duration": 1014000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "checkout-tests-tf---desktop;validade-mandatory-phone-alert-is-displayed",
+        "keyword": "Scenario",
+        "line": 27,
+        "name": "Validade mandatory phone alert is displayed",
+        "tags": [
+          {
+            "name": "@Checkout",
+            "line": 1
+          },
+          {
+            "name": "@Desktop",
+            "line": 1
+          },
+          {
+            "name": "@RegressionTest",
+            "line": 1
+          },
+          {
+            "name": "@Checkout",
+            "line": 26
+          },
+          {
+            "name": "@Desktop",
+            "line": 26
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "At Desktop",
+            "result": {
+              "status": "passed",
+              "duration": 5075000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I have one item in the cart with 1 units",
+            "result": {
+              "status": "passed",
+              "duration": 30233000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I proceed to checkout",
+            "result": {
+              "status": "passed",
+              "duration": 2145000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 28,
+            "name": "I fill in the checkout data without phone number",
+            "result": {
+              "status": "passed",
+              "duration": 4222000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 29,
+            "name": "mandatory phone number alert is displayed",
+            "result": {
+              "status": "passed",
+              "duration": 1015000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "checkout-tests-tf---desktop;validade-mastercard",
+        "keyword": "Scenario",
+        "line": 34,
+        "name": "Validade mastercard",
+        "tags": [
+          {
+            "name": "@Checkout",
+            "line": 1
+          },
+          {
+            "name": "@Desktop",
+            "line": 1
+          },
+          {
+            "name": "@RegressionTest",
+            "line": 1
+          },
+          {
+            "name": "@Checkout",
+            "line": 33
+          },
+          {
+            "name": "@Desktop",
+            "line": 33
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "At Desktop",
+            "result": {
+              "status": "passed",
+              "duration": 5090000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I have one item in the cart with 1 units",
+            "result": {
+              "status": "passed",
+              "duration": 25025000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I proceed to checkout",
+            "result": {
+              "status": "passed",
+              "duration": 2146000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 35,
+            "name": "I fill in the checkout data",
+            "result": {
+              "status": "passed",
+              "duration": 5243000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 36,
+            "name": "I fill the address data",
+            "result": {
+              "status": "passed",
+              "duration": 7070000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 37,
+            "name": "I fill mastercard card number",
+            "result": {
+              "status": "passed",
+              "duration": 5024000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 38,
+            "name": "checkbox MASTERCARD must be selected",
+            "result": {
+              "status": "passed",
+              "duration": 1025000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "checkout-tests-tf---desktop;validade-visa",
+        "keyword": "Scenario",
+        "line": 41,
+        "name": "Validade visa",
+        "tags": [
+          {
+            "name": "@Checkout",
+            "line": 1
+          },
+          {
+            "name": "@Desktop",
+            "line": 1
+          },
+          {
+            "name": "@RegressionTest",
+            "line": 1
+          },
+          {
+            "name": "@Checkout",
+            "line": 40
+          },
+          {
+            "name": "@Desktop",
+            "line": 40
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "At Desktop",
+            "result": {
+              "status": "passed",
+              "duration": 5114000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I have one item in the cart with 1 units",
+            "result": {
+              "status": "passed",
+              "duration": 6484000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I proceed to checkout",
+            "result": {
+              "status": "passed",
+              "duration": 2132000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 42,
+            "name": "I fill in the checkout data",
+            "result": {
+              "status": "passed",
+              "duration": 5037000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 43,
+            "name": "I fill the address data",
+            "result": {
+              "status": "passed",
+              "duration": 4360000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 44,
+            "name": "I fill visa card number",
+            "result": {
+              "status": "passed",
+              "duration": 4595000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 45,
+            "name": "checkbox VISA must be selected",
+            "result": {
+              "status": "passed",
+              "duration": 1026000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "checkout-tests-tf---desktop;validade-american-express",
+        "keyword": "Scenario",
+        "line": 48,
+        "name": "Validade american express",
+        "tags": [
+          {
+            "name": "@Checkout",
+            "line": 1
+          },
+          {
+            "name": "@Desktop",
+            "line": 1
+          },
+          {
+            "name": "@RegressionTest",
+            "line": 1
+          },
+          {
+            "name": "@Checkout",
+            "line": 47
+          },
+          {
+            "name": "@Desktop",
+            "line": 47
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "At Desktop",
+            "result": {
+              "status": "passed",
+              "duration": 5182000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I have one item in the cart with 1 units",
+            "result": {
+              "status": "passed",
+              "duration": 2319000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I proceed to checkout",
+            "result": {
+              "status": "passed",
+              "duration": 2184000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 49,
+            "name": "I fill in the checkout data",
+            "result": {
+              "status": "passed",
+              "duration": 6294000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 50,
+            "name": "I fill the address data",
+            "result": {
+              "status": "passed",
+              "duration": 4729000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 51,
+            "name": "I fill american express card number",
+            "result": {
+              "status": "passed",
+              "duration": 4516000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 52,
+            "name": "checkbox AMERICANEXPRESS must be selected",
+            "result": {
+              "status": "passed",
+              "duration": 1029000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

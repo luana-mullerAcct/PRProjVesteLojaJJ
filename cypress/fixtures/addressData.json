@@ -1,0 +1,23 @@
+[
+  {
+    "zipCode":"06286-120",
+    "city":"Mar Del Plata",
+    "country": "Argentina"
+  },
+  {
+    "zipCode":"06286-120",
+    "city":"Laguna De Los Padres",
+    "country": "Argentina"
+  },
+  {
+    "zipCode":"0000",
+    "city":"Laguna De Los Padres",
+    "country": "Argentina"
+  },
+
+  {
+    "zipCode":"abc555",
+    "city":"Laguna De Los Padres",
+    "country": "Argentina"
+  }
+]

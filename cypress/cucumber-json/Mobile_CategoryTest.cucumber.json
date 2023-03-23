@@ -1,0 +1,781 @@
+[
+  {
+    "description": "\tAs a customer, I want to test the category functionalities on TF - Mobile",
+    "keyword": "Feature",
+    "name": "Category tests TF - Mobile",
+    "line": 2,
+    "id": "category-tests-tf---mobile",
+    "tags": [
+      {
+        "name": "@CategoryTest",
+        "line": 1
+      },
+      {
+        "name": "@Mobile",
+        "line": 1
+      },
+      {
+        "name": "@RegressionTest",
+        "line": 1
+      }
+    ],
+    "uri": "Mobile_CategoryTest.feature",
+    "elements": [
+      {
+        "id": "category-tests-tf---mobile;validate-product-card-samsungs10",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Validate product card SamsungS10",
+        "tags": [
+          {
+            "name": "@CategoryTest",
+            "line": 1
+          },
+          {
+            "name": "@Mobile",
+            "line": 1
+          },
+          {
+            "name": "@RegressionTest",
+            "line": 1
+          },
+          {
+            "name": "@Category",
+            "line": 6
+          },
+          {
+            "name": "@Mobile",
+            "line": 6
+          },
+          {
+            "name": "@SamsungS10",
+            "line": 6
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "At SamsungS10",
+            "result": {
+              "status": "passed",
+              "duration": 3599000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "I'm on the product list page",
+            "result": {
+              "status": "passed",
+              "duration": 5540000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I see the promocional modal",
+            "result": {
+              "status": "passed",
+              "duration": 6180000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "The product card should be visible",
+            "result": {
+              "status": "passed",
+              "duration": 2555000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "category-tests-tf---mobile;validate-ordenation-by-mais-vendidos-samsungs10",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "Validate ordenation by Mais Vendidos SamsungS10",
+        "tags": [
+          {
+            "name": "@CategoryTest",
+            "line": 1
+          },
+          {
+            "name": "@Mobile",
+            "line": 1
+          },
+          {
+            "name": "@RegressionTest",
+            "line": 1
+          },
+          {
+            "name": "@Category",
+            "line": 13
+          },
+          {
+            "name": "@Mobile",
+            "line": 13
+          },
+          {
+            "name": "@SamsungS10",
+            "line": 13
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 15,
+            "name": "At SamsungS10",
+            "result": {
+              "status": "passed",
+              "duration": 6197000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "I'm on the product list page",
+            "result": {
+              "status": "passed",
+              "duration": 5330000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "I see the promocional modal",
+            "result": {
+              "status": "passed",
+              "duration": 6157000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "I select the ordination by Mais Vendidos",
+            "result": {
+              "status": "passed",
+              "duration": 2643000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "I validate the page ordenation by Mais Vendidos",
+            "result": {
+              "status": "passed",
+              "duration": 2507000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "category-tests-tf---mobile;validate-ordenation-by-mais-recentes-samsungs10",
+        "keyword": "Scenario",
+        "line": 22,
+        "name": "Validate ordenation by Mais recentes SamsungS10",
+        "tags": [
+          {
+            "name": "@CategoryTest",
+            "line": 1
+          },
+          {
+            "name": "@Mobile",
+            "line": 1
+          },
+          {
+            "name": "@RegressionTest",
+            "line": 1
+          },
+          {
+            "name": "@Category",
+            "line": 21
+          },
+          {
+            "name": "@Mobile",
+            "line": 21
+          },
+          {
+            "name": "@SamsungS10",
+            "line": 21
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 23,
+            "name": "At SamsungS10",
+            "result": {
+              "status": "passed",
+              "duration": 6233000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "I'm on the product list page",
+            "result": {
+              "status": "passed",
+              "duration": 3023000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "I see the promocional modal",
+            "result": {
+              "status": "passed",
+              "duration": 6155000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 26,
+            "name": "I select the ordination by Mais recentes",
+            "result": {
+              "status": "passed",
+              "duration": 2620000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 27,
+            "name": "I validate the page ordenation by Mais recentes",
+            "result": {
+              "status": "passed",
+              "duration": 2504000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "category-tests-tf---mobile;validate-ordenation-by-descontos-samsungs10",
+        "keyword": "Scenario",
+        "line": 30,
+        "name": "Validate ordenation by Descontos SamsungS10",
+        "tags": [
+          {
+            "name": "@CategoryTest",
+            "line": 1
+          },
+          {
+            "name": "@Mobile",
+            "line": 1
+          },
+          {
+            "name": "@RegressionTest",
+            "line": 1
+          },
+          {
+            "name": "@Category",
+            "line": 29
+          },
+          {
+            "name": "@Mobile",
+            "line": 29
+          },
+          {
+            "name": "@SamsungS10",
+            "line": 29
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 31,
+            "name": "At SamsungS10",
+            "result": {
+              "status": "passed",
+              "duration": 6171000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 32,
+            "name": "I'm on the product list page",
+            "result": {
+              "status": "passed",
+              "duration": 3010000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 33,
+            "name": "I see the promocional modal",
+            "result": {
+              "status": "passed",
+              "duration": 6157000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 34,
+            "name": "I select the ordination by Descontos",
+            "result": {
+              "status": "passed",
+              "duration": 2632000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 35,
+            "name": "I validate the page ordenation by Descontos",
+            "result": {
+              "status": "passed",
+              "duration": 2504000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "category-tests-tf---mobile;validate-ordenation-by-maior-preço-samsungs10",
+        "keyword": "Scenario",
+        "line": 39,
+        "name": "Validate ordenation by Maior preço SamsungS10",
+        "tags": [
+          {
+            "name": "@CategoryTest",
+            "line": 1
+          },
+          {
+            "name": "@Mobile",
+            "line": 1
+          },
+          {
+            "name": "@RegressionTest",
+            "line": 1
+          },
+          {
+            "name": "@Category",
+            "line": 38
+          },
+          {
+            "name": "@Mobile",
+            "line": 38
+          },
+          {
+            "name": "@SamsungS10",
+            "line": 38
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 40,
+            "name": "At SamsungS10",
+            "result": {
+              "status": "passed",
+              "duration": 6134000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 41,
+            "name": "I'm on the product list page",
+            "result": {
+              "status": "passed",
+              "duration": 3417000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 42,
+            "name": "I see the promocional modal",
+            "result": {
+              "status": "passed",
+              "duration": 6166000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 43,
+            "name": "I select the ordination by Maior preço",
+            "result": {
+              "status": "passed",
+              "duration": 2661000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 44,
+            "name": "I validate the page ordenation by Maior preço",
+            "result": {
+              "status": "passed",
+              "duration": 2507000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "category-tests-tf---mobile;validate-ordenation-by-menor-preço-samsungs10",
+        "keyword": "Scenario",
+        "line": 47,
+        "name": "Validate ordenation by Menor preço SamsungS10",
+        "tags": [
+          {
+            "name": "@CategoryTest",
+            "line": 1
+          },
+          {
+            "name": "@Mobile",
+            "line": 1
+          },
+          {
+            "name": "@RegressionTest",
+            "line": 1
+          },
+          {
+            "name": "@Category",
+            "line": 46
+          },
+          {
+            "name": "@Mobile",
+            "line": 46
+          },
+          {
+            "name": "@SamsungS10",
+            "line": 46
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 48,
+            "name": "At SamsungS10",
+            "result": {
+              "status": "passed",
+              "duration": 6257000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 49,
+            "name": "I'm on the product list page",
+            "result": {
+              "status": "passed",
+              "duration": 3027000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 50,
+            "name": "I see the promocional modal",
+            "result": {
+              "status": "passed",
+              "duration": 6165000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 51,
+            "name": "I select the ordination by Menor preço",
+            "result": {
+              "status": "passed",
+              "duration": 2654000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 52,
+            "name": "I validate the page ordenation by Menor preço",
+            "result": {
+              "status": "passed",
+              "duration": 2505000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "category-tests-tf---mobile;validate-ordenation-by-de-a-a-z-samsungs10",
+        "keyword": "Scenario",
+        "line": 55,
+        "name": "Validate ordenation by De A a Z SamsungS10",
+        "tags": [
+          {
+            "name": "@CategoryTest",
+            "line": 1
+          },
+          {
+            "name": "@Mobile",
+            "line": 1
+          },
+          {
+            "name": "@RegressionTest",
+            "line": 1
+          },
+          {
+            "name": "@Category",
+            "line": 54
+          },
+          {
+            "name": "@Mobile",
+            "line": 54
+          },
+          {
+            "name": "@SamsungS10",
+            "line": 54
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 56,
+            "name": "At SamsungS10",
+            "result": {
+              "status": "passed",
+              "duration": 6141000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 57,
+            "name": "I'm on the product list page",
+            "result": {
+              "status": "passed",
+              "duration": 2564000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 58,
+            "name": "I see the promocional modal",
+            "result": {
+              "status": "passed",
+              "duration": 6204000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 59,
+            "name": "I select the ordination by De A a Z",
+            "result": {
+              "status": "passed",
+              "duration": 2634000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 60,
+            "name": "I validate the page ordenation by De A a Z",
+            "result": {
+              "status": "passed",
+              "duration": 2507000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "category-tests-tf---mobile;validate-ordenation-by-de-z-a-a-samsungs10",
+        "keyword": "Scenario",
+        "line": 64,
+        "name": "Validate ordenation by De Z a A SamsungS10",
+        "tags": [
+          {
+            "name": "@CategoryTest",
+            "line": 1
+          },
+          {
+            "name": "@Mobile",
+            "line": 1
+          },
+          {
+            "name": "@RegressionTest",
+            "line": 1
+          },
+          {
+            "name": "@Category",
+            "line": 63
+          },
+          {
+            "name": "@Mobile",
+            "line": 63
+          },
+          {
+            "name": "@SamsungS10",
+            "line": 63
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 65,
+            "name": "At SamsungS10",
+            "result": {
+              "status": "passed",
+              "duration": 6195000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 66,
+            "name": "I'm on the product list page",
+            "result": {
+              "status": "passed",
+              "duration": 3270000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 67,
+            "name": "I see the promocional modal",
+            "result": {
+              "status": "passed",
+              "duration": 6161000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 68,
+            "name": "I select the ordination by De Z a A",
+            "result": {
+              "status": "passed",
+              "duration": 2634000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 69,
+            "name": "I validate the page ordenation by De Z a A",
+            "result": {
+              "status": "passed",
+              "duration": 2505000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "category-tests-tf---mobile;validate-button-mostrar-mais-samsungs10",
+        "keyword": "Scenario",
+        "line": 74,
+        "name": "Validate Button Mostrar Mais SamsungS10",
+        "tags": [
+          {
+            "name": "@CategoryTest",
+            "line": 1
+          },
+          {
+            "name": "@Mobile",
+            "line": 1
+          },
+          {
+            "name": "@RegressionTest",
+            "line": 1
+          },
+          {
+            "name": "@Category",
+            "line": 73
+          },
+          {
+            "name": "@Mobile",
+            "line": 73
+          },
+          {
+            "name": "@SamsungS10",
+            "line": 73
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 75,
+            "name": "At SamsungS10",
+            "result": {
+              "status": "passed",
+              "duration": 6141000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 76,
+            "name": "I'm on the product list page",
+            "result": {
+              "status": "passed",
+              "duration": 2946000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 77,
+            "name": "I see the promocional modal",
+            "result": {
+              "status": "passed",
+              "duration": 6147000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 78,
+            "name": "the button mostrar mais is visible Mobile",
+            "result": {
+              "status": "passed",
+              "duration": 185000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 79,
+            "name": "show more products Mobile",
+            "result": {
+              "status": "passed",
+              "duration": 5050000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
