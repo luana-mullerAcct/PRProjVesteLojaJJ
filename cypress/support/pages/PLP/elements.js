@@ -16,9 +16,9 @@ export const ELEMENTS = {
   moreProductsCountMobile:
     '.vtex-search-result-3-x-showingProductsCount',
   addProduct1InWishlist:
-    '[href="/calca--legging-feminina-skin-adapt-mescla-cinza/p"] .vtex-flex-layout-0-x-flexCol .vtex-wish-list-1-x-wishlistIconContainer .vtex-wish-list-1-x-wishlistIcon',
+    '[href="/camiseta-ampla-neo-john-john-feminina-preto-03-02-2553/p"] .vtex-flex-layout-0-x-flexCol .vtex-wish-list-1-x-wishlistIconContainer .vtex-wish-list-1-x-wishlistIcon',
   addProduct2InWishlist:
-    '[href="/calca-legging-feminina-bolsos-preta/p"] .vtex-flex-layout-0-x-flexCol .vtex-wish-list-1-x-wishlistIconContainer .vtex-wish-list-1-x-wishlistIcon',
+    '[href="/blusa-justa-franz-off-john-john-feminina-off-white-11-22-0304/p"] .vtex-flex-layout-0-x-flexCol .vtex-wish-list-1-x-wishlistIconContainer .vtex-wish-list-1-x-wishlistIcon',
   openWishlistPlp:
     '.vtex-flex-layout-0-x-flexCol > :nth-child(2) > .vtex-store-link-0-x-link > .vtex-store-link-0-x-childrenContainer > .v-mid',
   productsWishlist:

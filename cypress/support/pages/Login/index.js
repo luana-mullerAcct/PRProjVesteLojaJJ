@@ -4,7 +4,7 @@ const elLogin = require('./elements').ELEMENTS
 
 class LoginPage {
   acessLoginPage() {
-    cy.visit('/login?returnUrl=%2F%3Fworkspace%3Dwsio')
+    cy.visit('https://www.johnjohndenim.com.br/login')
     cy.wait(1000)
   }
 }

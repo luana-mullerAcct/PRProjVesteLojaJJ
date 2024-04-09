@@ -1,6 +1,7 @@
 @NavigationTest @Desktop @RegressionTest
 Feature: Navigation tests TF - Desktop
 	As a customer, I want to test the navigation functionalities on TF - Desktop
+    ## Como cliente, quero testar as funcionalidades de navegação - Desktop	
 
     Background:
         Given At Desktop
@@ -15,19 +16,19 @@ Feature: Navigation tests TF - Desktop
 	Scenario: Test the redirection of the TF logo from Home to Home
 		And I'm on the home page
 		And I see the promocional modal
-		Then the store logo has a link to homepage
+		Then the TF logo has a link to homepage
 
 	@Navigation @Desktop
 	Scenario: Test the redirection of the TF logo from PLP to Home
 		And I'm on the product list page
 		And I see the promocional modal
-		Then the store logo has a link to homepage
+		Then the TF logo has a link to homepage
 
 	@Navigation @Desktop
 	Scenario: Test the redirection of the TF logo from PDP to Home
 		And I'm on the product detail page
 		And I see the promocional modal
-		Then the store logo has a link to homepage
+		Then the TF logo has a link to homepage
 
 	@Navigation @Desktop
 	Scenario: Test the search bar with non inexistent product

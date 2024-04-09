@@ -1,5 +1,5 @@
 export const ELEMENTS = {
-  btnAddToCart: '.pr7 > .vtex-flex-layout-0-x-flexCol > .vtex-flex-layout-0-x-flexColChild > .vtex-button > .vtex-button__label',
+  btnAddToCart: '.pr0 > .vtex-flex-layout-0-x-flexCol > .vtex-button > .vtex-button__label', //.vtex-flex-layout-0-x-flexColChild >
   btnAddToCartMobile: '.vtex-add-to-cart-button-0-x-buttonText', //'.pr0-ns > .vtex-button > .vtex-button__label',
   btnCalcShipping:'.trackfield-shipping-simulator-0-x-shipping-simulator__button',
   cbState: 'select[name=state]',

@@ -94,10 +94,10 @@ class HomePage {
 
     validateLinksOnMenuCategoriesMobile() {
       cy.get(elHomepage.itemCategoryMenuMobile()).click({ force: true }).should('have.text','Masculino')
-      cy.get(elHomepage.itemCategoryMenuDepto()).click({ force: true }).should('have.text','Fitness-')
+      cy.get(elHomepage.itemCategoryMenuDepto()).click({ force: true }).should('have.text','Feminino')
   }
   validateLinksOnMenuCategories() {
-    cy.get(elHomepage.itemCategoryMenu()).click({ force: true }).should('have.text','Camisetas')
+    cy.get(elHomepage.itemCategoryMenu()).click({ force: true }).should('have.text','feminino')
     //cy.get(elHomepage.itemCategoryMenuDepto()).click({ force: true }).should('have.text','Roupas-')
 
   }

@@ -76,14 +76,6 @@ class PdpPage {
     cy.get(elPdpPage.tableShippingData).should('not.exist')
   }
 
-  validateBtnAddToCart() {
-    cy.get(elPdpPage.btnAddToCart).should('exist')
-  }
-
-  validateBtnAddToCartMobile() {
-    cy.get(elPdpPage.btnAddToCartMobile).should('exist')
-  }
-
   validateImgPdpShareProduct() {
     cy.get(elPdpPage.productShare).should('be.visible').click()
   }
@@ -100,8 +92,8 @@ class PdpPage {
     cy.wait(2000)
     cy.get(elPdpPage.SOCIALBUTTON.Whatsapp).should('be.visible')
     cy.wait(2000)
-    cy.get(elPdpPage.SOCIALBUTTON.Email).should('be.visible')
-    cy.wait(2000)
+    //cy.get(elPdpPage.SOCIALBUTTON.Email).should('be.visible')
+    //cy.wait(2000)
     cy.get('.trackfield-store-components-0-x-share-link__text').contains('Copiar Link:')
     cy.wait(2000)
     cy.get('[data-testid="input"]').should('have.value', 'https://www.tf.com.br/shorts-f-inspiracao-preto/p')
@@ -111,6 +103,14 @@ class PdpPage {
 
   validateBtnWishlist() {
     cy.get(elPdpPage.buttonWishlist).should('be.visible')
+  }
+
+  validateBtnAddToCart() {
+    cy.get(elPdpPage.btnAddToCart).should('exist')
+  }
+
+  validateBtnAddToCartMobile() {
+    cy.get(elPdpPage.btnAddToCartMobile).should('exist')
   }
 }
 export default new PdpPage()

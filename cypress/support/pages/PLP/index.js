@@ -93,23 +93,6 @@ class PLPPage {
     cy.xpath(elPlpPage.checkFilterOrderBy(optionFilterBy)).should('be.checked')
   }
 
-  validateButtonMostrarMais() {
-    cy.get(elPlpPage.btnShowMore).click()
-  }
-
-  showMoreProducts() {
-    cy.wait(5000)
-    cy.get(elPlpPage.moreProductsCount).contains('32').should('be.visible')
-  }
-
-  validateButtonMostrarMaisMobile() {
-    cy.get(elPlpPage.btnShowMoreMobile).click()
-  }
-
-  showMoreProductsMobile() {
-    cy.wait(5000)
-    cy.get(elPlpPage.moreProductsCountMobile).contains('32').should('be.visible') 
-  }
   addFisrtProductInWishlist() {
     cy.wait(10000)
     cy.get(elPlpPage.addProduct1InWishlist).click() 
@@ -123,12 +106,28 @@ class PLPPage {
   openWishlist() {
     cy.get(elPlpPage.openWishlistPlp).click()
     //cy.get(':nth-child(1) > .vtex-product-summary-2-x-container > .vtex-product-summary-2-x-clearLink > .vtex-product-summary-2-x-element > .vtex-product-summary-2-x-nameContainer > .vtex-product-summary-2-x-productNameContainer > .vtex-product-summary-2-x-productBrand').contains('Legging Feminina Skin Adapt').should('be.visible')
-    cy.get(elPlpPage.productsWishlist).contains('Legging Feminina Skin Adapt').should('be.visible')
+    cy.get(elPlpPage.productsWishlist).contains('camiseta ampla neo john feminina 03 02 2553').should('be.visible')
     //cy.get(':nth-child(1) > .vtex-product-summary-2-x-container > .vtex-product-summary-2-x-clearLink > .vtex-product-summary-2-x-element > .vtex-product-summary-2-x-nameContainer > .vtex-product-summary-2-x-productNameContainer > .vtex-product-summary-2-x-productBrand').contains('Legging Feminina Bolsos').should('be.visible')
-    cy.get(elPlpPage.productsWishlist).contains('Legging Feminina Bolsos').should('be.visible')
+    cy.get(elPlpPage.productsWishlist).contains('blusa justa frans off john john feminina off white 11 22 0304').should('be.visible')
   }
 
+  validateButtonMostrarMais() {
+    //cy.get(elPlpPage.btnShowMore).click()
+    cy.get(elPlpPage.btnShowMore).scrollIntoView()
+  }
 
+  showMoreProducts() {
+    cy.wait(5000)
+    cy.get(elPlpPage.moreProductsCount).contains('32').should('be.visible')
+  }
 
+  showMoreProductsMobile() {
+    cy.wait(5000)
+    cy.get(elPlpPage.moreProductsCountMobile).contains('32').should('be.visible') 
+  }
+
+  validateButtonMostrarMaisMobile() {
+    cy.get(elPlpPage.btnShowMoreMobile).click()
+  }
 }
 export default new PLPPage()

@@ -57,7 +57,7 @@
             "name": "At Desktop",
             "result": {
               "status": "passed",
-              "duration": 2557000000
+              "duration": 3603000000
             }
           },
           {
@@ -66,8 +66,9 @@
             "line": 7,
             "name": "I'm on the product detail page",
             "result": {
-              "status": "passed",
-              "duration": 6018000000
+              "status": "failed",
+              "duration": 23659000000,
+              "error_message": "CypressError: `cy.visit()` failed trying to load:\n\nhttps://www.johnjohndenim.com.br/blusa-justa-franja-john-john-feminina-preto-11-04-4740/p\n\nWe attempted to make an http request to this URL but the request failed without a response.\n\nWe received this error at the network level:\n\n  > Error: connect ETIMEDOUT 92.123.2.18:443\n\nCommon situations why this would fail:\n  - you don't have internet access\n  - you forgot to run / boot your web server\n  - your web server isn't accessible\n  - you have weird network configuration settings on your computer\n    at <unknown> (https://www.johnjohndenim.com.br/__cypress/runner/cypress_runner.js:131065:74)\n    at visitFailedByErr (https://www.johnjohndenim.com.br/__cypress/runner/cypress_runner.js:130463:12)\n    at <unknown> (https://www.johnjohndenim.com.br/__cypress/runner/cypress_runner.js:131064:11)\n    at tryCatcher (https://www.johnjohndenim.com.br/__cypress/runner/cypress_runner.js:1807:23)\n    at Promise._settlePromiseFromHandler (https://www.johnjohndenim.com.br/__cypress/runner/cypress_runner.js:1519:31)\n    at Promise._settlePromise (https://www.johnjohndenim.com.br/__cypress/runner/cypress_runner.js:1576:18)\n    at Promise._settlePromise0 (https://www.johnjohndenim.com.br/__cypress/runner/cypress_runner.js:1621:10)\n    at Promise._settlePromises (https://www.johnjohndenim.com.br/__cypress/runner/cypress_runner.js:1697:18)\n    at <unknown> (https://www.johnjohndenim.com.br/__cypress/runner/cypress_runner.js:2392:25)\nFrom previous event:\n    at Promise.longStackTracesCaptureStackTrace [as _captureStackTrace] (https://www.johnjohndenim.com.br/__cypress/runner/cypress_runner.js:3486:19)\n    at Promise._then (https://www.johnjohndenim.com.br/__cypress/runner/cypress_runner.js:1239:17)\n    at Promise._passThrough (https://www.johnjohndenim.com.br/__cypress/runner/cypress_runner.js:4110:17)\n    at Promise.lastly.Promise.finally (https://www.johnjohndenim.com.br/__cypress/runner/cypress_runner.js:4119:17)\n    at Object.onRunnableRun (https://www.johnjohndenim.com.br/__cypress/runner/cypress_runner.js:163155:53)\n    at $Cypress.action (https://www.johnjohndenim.com.br/__cypress/runner/cypress_runner.js:41042:28)\n    at Runnable.run (https://www.johnjohndenim.com.br/__cypress/runner/cypress_runner.js:145743:13)\n    at next (https://www.johnjohndenim.com.br/__cypress/runner/cypress_runner.js:155528:10)\n    at <unknown> (https://www.johnjohndenim.com.br/__cypress/runner/cypress_runner.js:155572:5)\n    at timeslice (https://www.johnjohndenim.com.br/__cypress/runner/cypress_runner.js:146083:27)\nFrom Your Spec Code:\n    at PdpPage.urlPDP (cypress/support/pages/Pdp/index.js:8:7)\n    at Context.eval (cypress/support/steps/steps.js:147:10)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)\n\nFrom Node.js Internals:\n  Error: connect ETIMEDOUT 92.123.2.18:443\n      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1495:16)"
             }
           },
           {
@@ -76,8 +77,7 @@
             "line": 8,
             "name": "The page is full loaded",
             "result": {
-              "status": "passed",
-              "duration": 19000000
+              "status": "skipped"
             }
           },
           {
@@ -86,8 +86,7 @@
             "line": 9,
             "name": "I see the promocional modal",
             "result": {
-              "status": "passed",
-              "duration": 6153000000
+              "status": "skipped"
             }
           },
           {
@@ -96,8 +95,7 @@
             "line": 13,
             "name": "the product value is visible",
             "result": {
-              "status": "passed",
-              "duration": 5012000000
+              "status": "skipped"
             }
           }
         ]
@@ -138,7 +136,7 @@
             "name": "At Desktop",
             "result": {
               "status": "passed",
-              "duration": 5082000000
+              "duration": 5198000000
             }
           },
           {
@@ -148,7 +146,7 @@
             "name": "I'm on the product detail page",
             "result": {
               "status": "passed",
-              "duration": 4166000000
+              "duration": 14557000000
             }
           },
           {
@@ -157,8 +155,8 @@
             "line": 8,
             "name": "The page is full loaded",
             "result": {
-              "status": "passed",
-              "duration": 6000000
+              "status": "failed",
+              "error_message": "AssertionError: Timed out retrying after 50000ms: Expected to find element: `.pr7 > .vtex-flex-layout-0-x-flexCol > .vtex-flex-layout-0-x-flexColChild > .vtex-button > .vtex-button__label`, but never found it.\n    at PdpPage.validateBtnAddToCart (cypress/support/pages/Pdp/index.js:80:35)\n    at Context.eval (cypress/support/steps/steps.js:407:10)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
             }
           },
           {
@@ -167,8 +165,7 @@
             "line": 9,
             "name": "I see the promocional modal",
             "result": {
-              "status": "passed",
-              "duration": 6174000000
+              "status": "skipped"
             }
           },
           {
@@ -177,8 +174,7 @@
             "line": 17,
             "name": "The product image should be displayed",
             "result": {
-              "status": "passed",
-              "duration": 11000000
+              "status": "skipped"
             }
           }
         ]
@@ -219,7 +215,7 @@
             "name": "At Desktop",
             "result": {
               "status": "passed",
-              "duration": 5136000000
+              "duration": 6616000000
             }
           },
           {
@@ -229,7 +225,7 @@
             "name": "I'm on the product detail page",
             "result": {
               "status": "passed",
-              "duration": 4281000000
+              "duration": 11182000000
             }
           },
           {
@@ -238,8 +234,8 @@
             "line": 8,
             "name": "The page is full loaded",
             "result": {
-              "status": "passed",
-              "duration": 6000000
+              "status": "failed",
+              "error_message": "AssertionError: Timed out retrying after 50000ms: Expected to find element: `.pr7 > .vtex-flex-layout-0-x-flexCol > .vtex-flex-layout-0-x-flexColChild > .vtex-button > .vtex-button__label`, but never found it.\n    at PdpPage.validateBtnAddToCart (cypress/support/pages/Pdp/index.js:80:35)\n    at Context.eval (cypress/support/steps/steps.js:407:10)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
             }
           },
           {
@@ -248,8 +244,7 @@
             "line": 9,
             "name": "I see the promocional modal",
             "result": {
-              "status": "passed",
-              "duration": 6127000000
+              "status": "skipped"
             }
           },
           {
@@ -258,8 +253,7 @@
             "line": 21,
             "name": "On the product page calculate valid shipping",
             "result": {
-              "status": "passed",
-              "duration": 6390000000
+              "status": "skipped"
             }
           },
           {
@@ -268,8 +262,7 @@
             "line": 22,
             "name": "The shipping table should be displayed",
             "result": {
-              "status": "passed",
-              "duration": 15000000
+              "status": "skipped"
             }
           }
         ]
@@ -310,7 +303,7 @@
             "name": "At Desktop",
             "result": {
               "status": "passed",
-              "duration": 5135000000
+              "duration": 6467000000
             }
           },
           {
@@ -320,7 +313,7 @@
             "name": "I'm on the product detail page",
             "result": {
               "status": "passed",
-              "duration": 3523000000
+              "duration": 12048000000
             }
           },
           {
@@ -329,8 +322,8 @@
             "line": 8,
             "name": "The page is full loaded",
             "result": {
-              "status": "passed",
-              "duration": 6000000
+              "status": "failed",
+              "error_message": "AssertionError: Timed out retrying after 50000ms: Expected to find element: `.pr7 > .vtex-flex-layout-0-x-flexCol > .vtex-flex-layout-0-x-flexColChild > .vtex-button > .vtex-button__label`, but never found it.\n    at PdpPage.validateBtnAddToCart (cypress/support/pages/Pdp/index.js:80:35)\n    at Context.eval (cypress/support/steps/steps.js:407:10)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
             }
           },
           {
@@ -339,8 +332,7 @@
             "line": 9,
             "name": "I see the promocional modal",
             "result": {
-              "status": "passed",
-              "duration": 6141000000
+              "status": "skipped"
             }
           },
           {
@@ -349,8 +341,7 @@
             "line": 26,
             "name": "On the product page calculate invalid shipping",
             "result": {
-              "status": "passed",
-              "duration": 5307000000
+              "status": "skipped"
             }
           },
           {
@@ -359,8 +350,7 @@
             "line": 27,
             "name": "The shipping table should not be displayed",
             "result": {
-              "status": "passed",
-              "duration": 5016000000
+              "status": "skipped"
             }
           }
         ]
@@ -401,7 +391,7 @@
             "name": "At Desktop",
             "result": {
               "status": "passed",
-              "duration": 5098000000
+              "duration": 6757000000
             }
           },
           {
@@ -410,8 +400,8 @@
             "line": 7,
             "name": "I'm on the product detail page",
             "result": {
-              "status": "passed",
-              "duration": 3982000000
+              "status": "failed",
+              "error_message": "CypressError: `cy.visit()` failed trying to load:\n\nhttps://www.johnjohndenim.com.br/blusa-justa-franja-john-john-feminina-preto-11-04-4740/p\n\nWe attempted to make an http request to this URL but the request failed without a response.\n\nWe received this error at the network level:\n\n  > Error: connect ETIMEDOUT 92.123.2.18:443\n\nCommon situations why this would fail:\n  - you don't have internet access\n  - you forgot to run / boot your web server\n  - your web server isn't accessible\n  - you have weird network configuration settings on your computer\n    at <unknown> (https://www.johnjohndenim.com.br/__cypress/runner/cypress_runner.js:131065:74)\n    at visitFailedByErr (https://www.johnjohndenim.com.br/__cypress/runner/cypress_runner.js:130463:12)\n    at <unknown> (https://www.johnjohndenim.com.br/__cypress/runner/cypress_runner.js:131064:11)\n    at tryCatcher (https://www.johnjohndenim.com.br/__cypress/runner/cypress_runner.js:1807:23)\n    at Promise._settlePromiseFromHandler (https://www.johnjohndenim.com.br/__cypress/runner/cypress_runner.js:1519:31)\n    at Promise._settlePromise (https://www.johnjohndenim.com.br/__cypress/runner/cypress_runner.js:1576:18)\n    at Promise._settlePromise0 (https://www.johnjohndenim.com.br/__cypress/runner/cypress_runner.js:1621:10)\n    at Promise._settlePromises (https://www.johnjohndenim.com.br/__cypress/runner/cypress_runner.js:1697:18)\n    at <unknown> (https://www.johnjohndenim.com.br/__cypress/runner/cypress_runner.js:2392:25)\nFrom previous event:\n    at Promise.longStackTracesCaptureStackTrace [as _captureStackTrace] (https://www.johnjohndenim.com.br/__cypress/runner/cypress_runner.js:3486:19)\n    at Promise._then (https://www.johnjohndenim.com.br/__cypress/runner/cypress_runner.js:1239:17)\n    at Promise._passThrough (https://www.johnjohndenim.com.br/__cypress/runner/cypress_runner.js:4110:17)\n    at Promise.lastly.Promise.finally (https://www.johnjohndenim.com.br/__cypress/runner/cypress_runner.js:4119:17)\n    at Object.onRunnableRun (https://www.johnjohndenim.com.br/__cypress/runner/cypress_runner.js:163155:53)\n    at $Cypress.action (https://www.johnjohndenim.com.br/__cypress/runner/cypress_runner.js:41042:28)\n    at Runnable.run (https://www.johnjohndenim.com.br/__cypress/runner/cypress_runner.js:145743:13)\n    at next (https://www.johnjohndenim.com.br/__cypress/runner/cypress_runner.js:155528:10)\n    at <unknown> (https://www.johnjohndenim.com.br/__cypress/runner/cypress_runner.js:155572:5)\n    at timeslice (https://www.johnjohndenim.com.br/__cypress/runner/cypress_runner.js:146083:27)\nFrom Your Spec Code:\n    at PdpPage.urlPDP (cypress/support/pages/Pdp/index.js:8:7)\n    at Context.eval (cypress/support/steps/steps.js:147:10)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)\n\nFrom Node.js Internals:\n  Error: connect ETIMEDOUT 92.123.2.18:443\n      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1495:16)"
             }
           },
           {
@@ -420,8 +410,7 @@
             "line": 8,
             "name": "The page is full loaded",
             "result": {
-              "status": "passed",
-              "duration": 6000000
+              "status": "skipped"
             }
           },
           {
@@ -430,8 +419,7 @@
             "line": 9,
             "name": "I see the promocional modal",
             "result": {
-              "status": "passed",
-              "duration": 6147000000
+              "status": "skipped"
             }
           },
           {
@@ -440,8 +428,7 @@
             "line": 33,
             "name": "On the product page share product",
             "result": {
-              "status": "passed",
-              "duration": 271000000
+              "status": "skipped"
             }
           },
           {
@@ -450,8 +437,7 @@
             "line": 34,
             "name": "The modal share should be displayed",
             "result": {
-              "status": "passed",
-              "duration": 14421000000
+              "status": "skipped"
             }
           }
         ]
@@ -492,7 +478,7 @@
             "name": "At Desktop",
             "result": {
               "status": "passed",
-              "duration": 5119000000
+              "duration": 5352000000
             }
           },
           {
@@ -502,7 +488,7 @@
             "name": "I'm on the product detail page",
             "result": {
               "status": "passed",
-              "duration": 5669000000
+              "duration": 16037000000
             }
           },
           {
@@ -511,8 +497,8 @@
             "line": 8,
             "name": "The page is full loaded",
             "result": {
-              "status": "passed",
-              "duration": 9000000
+              "status": "failed",
+              "error_message": "AssertionError: Timed out retrying after 50000ms: Expected to find element: `.pr7 > .vtex-flex-layout-0-x-flexCol > .vtex-flex-layout-0-x-flexColChild > .vtex-button > .vtex-button__label`, but never found it.\n    at PdpPage.validateBtnAddToCart (cypress/support/pages/Pdp/index.js:80:35)\n    at Context.eval (cypress/support/steps/steps.js:407:10)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
             }
           },
           {
@@ -521,8 +507,7 @@
             "line": 9,
             "name": "I see the promocional modal",
             "result": {
-              "status": "passed",
-              "duration": 6152000000
+              "status": "skipped"
             }
           },
           {
@@ -531,8 +516,7 @@
             "line": 38,
             "name": "The button wishlist should be displayed",
             "result": {
-              "status": "passed",
-              "duration": 17000000
+              "status": "skipped"
             }
           }
         ]
@@ -573,7 +557,7 @@
             "name": "At Desktop",
             "result": {
               "status": "passed",
-              "duration": 5101000000
+              "duration": 6926000000
             }
           },
           {
@@ -582,8 +566,8 @@
             "line": 7,
             "name": "I'm on the product detail page",
             "result": {
-              "status": "passed",
-              "duration": 3632000000
+              "status": "failed",
+              "error_message": "CypressError: `cy.visit()` failed trying to load:\n\nhttps://www.johnjohndenim.com.br/blusa-justa-franja-john-john-feminina-preto-11-04-4740/p\n\nWe attempted to make an http request to this URL but the request failed without a response.\n\nWe received this error at the network level:\n\n  > Error: connect ETIMEDOUT 92.123.2.30:443\n\nCommon situations why this would fail:\n  - you don't have internet access\n  - you forgot to run / boot your web server\n  - your web server isn't accessible\n  - you have weird network configuration settings on your computer\n    at <unknown> (https://www.johnjohndenim.com.br/__cypress/runner/cypress_runner.js:131065:74)\n    at visitFailedByErr (https://www.johnjohndenim.com.br/__cypress/runner/cypress_runner.js:130463:12)\n    at <unknown> (https://www.johnjohndenim.com.br/__cypress/runner/cypress_runner.js:131064:11)\n    at tryCatcher (https://www.johnjohndenim.com.br/__cypress/runner/cypress_runner.js:1807:23)\n    at Promise._settlePromiseFromHandler (https://www.johnjohndenim.com.br/__cypress/runner/cypress_runner.js:1519:31)\n    at Promise._settlePromise (https://www.johnjohndenim.com.br/__cypress/runner/cypress_runner.js:1576:18)\n    at Promise._settlePromise0 (https://www.johnjohndenim.com.br/__cypress/runner/cypress_runner.js:1621:10)\n    at Promise._settlePromises (https://www.johnjohndenim.com.br/__cypress/runner/cypress_runner.js:1697:18)\n    at <unknown> (https://www.johnjohndenim.com.br/__cypress/runner/cypress_runner.js:2392:25)\nFrom previous event:\n    at Promise.longStackTracesCaptureStackTrace [as _captureStackTrace] (https://www.johnjohndenim.com.br/__cypress/runner/cypress_runner.js:3486:19)\n    at Promise._then (https://www.johnjohndenim.com.br/__cypress/runner/cypress_runner.js:1239:17)\n    at Promise._passThrough (https://www.johnjohndenim.com.br/__cypress/runner/cypress_runner.js:4110:17)\n    at Promise.lastly.Promise.finally (https://www.johnjohndenim.com.br/__cypress/runner/cypress_runner.js:4119:17)\n    at Object.onRunnableRun (https://www.johnjohndenim.com.br/__cypress/runner/cypress_runner.js:163155:53)\n    at $Cypress.action (https://www.johnjohndenim.com.br/__cypress/runner/cypress_runner.js:41042:28)\n    at Runnable.run (https://www.johnjohndenim.com.br/__cypress/runner/cypress_runner.js:145743:13)\n    at next (https://www.johnjohndenim.com.br/__cypress/runner/cypress_runner.js:155528:10)\n    at <unknown> (https://www.johnjohndenim.com.br/__cypress/runner/cypress_runner.js:155572:5)\n    at timeslice (https://www.johnjohndenim.com.br/__cypress/runner/cypress_runner.js:146083:27)\nFrom Your Spec Code:\n    at PdpPage.urlPDP (cypress/support/pages/Pdp/index.js:8:7)\n    at Context.eval (cypress/support/steps/steps.js:147:10)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)\n\nFrom Node.js Internals:\n  Error: connect ETIMEDOUT 92.123.2.30:443\n      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1495:16)"
             }
           },
           {
@@ -592,8 +576,7 @@
             "line": 8,
             "name": "The page is full loaded",
             "result": {
-              "status": "passed",
-              "duration": 5000000
+              "status": "skipped"
             }
           },
           {
@@ -602,8 +585,7 @@
             "line": 9,
             "name": "I see the promocional modal",
             "result": {
-              "status": "passed",
-              "duration": 6149000000
+              "status": "skipped"
             }
           },
           {
@@ -612,8 +594,7 @@
             "line": 42,
             "name": "two size must be selected",
             "result": {
-              "status": "passed",
-              "duration": 8245000000
+              "status": "skipped"
             }
           }
         ]

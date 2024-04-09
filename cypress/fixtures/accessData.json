@@ -1,6 +1,7 @@
 {
-  "correctEmail": "caio.almeida@acct.global",
-  "correctPassword": "Teste@2022",
+  "correctEmail": "luana.muller@acct.global",
+  "correctPassword": "Vbc71@45",
+  "incorrectEmail": "luana.muller@teste.com",
   "incorrectPassword": ".Z*565g7g6T4T4",
   "cookieAuth": "VtexIdclientAutCookie_trackfield"
 }

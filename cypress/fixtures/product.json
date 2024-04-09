@@ -2,26 +2,26 @@
   
   {
    
-    "Product": "TF020454", 
-    "SKU": "175743",
-    "url": "/shorts-f-inspiracao-preto/p/",
+    "Product": "T2139", 
+    "SKU": "3338",
+    "url": "blusa-justa-franja-john-john-feminina-preto-11-04-4740/p",
     "salesChannel":"1"
     
-  },
-  {
-
-    "Product": "TF170290",
-    "SKU": "168596",
-    "url": "/casaco-feminino-powercool-citrus/p/",
-    "salesChannel":"1" 
-       
-  },
-  {
-    "Product": "ProducTestTestProduct",
-    "SKU": "9999999999999999999",
-    "url": "/ProducTestTestProduct/p"
   }
+  
+  // {
 
+  //   "Product": "TF170290",
+  //   "SKU": "168596",
+  //   "url": "blusa-justa-franz-off-john-john-feminina-off-white-11-22-0304/p",
+  //   "salesChannel":"1" 
+       
+  // },
+  // {
+  //   "Product": "ProducTestTestProduct",
+  //   "SKU": "9999999999999999999",
+  //   "url": "/ProducTestTestProduct/p"
+  // }
  
 ]
 

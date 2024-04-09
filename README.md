@@ -29,3 +29,14 @@ yarn cypress run --config video=false --env allure=true
 ## Para gerar dashboard com Allure
 yarn allure serve
 
+## Projeto Veste 20/03/24
+## rotinas que rodaram loja: John John
+## NavigationTest 20/03
+## PLP - categoryTeste unico cenário que não passou foi o ver mais. 21/03
+## PDP - erro no incluir item ao carrinho PDPPage validateBTNAddCart, nos demais cenários passou 26/03
+## LOGIN - erro no Sair, nos demais cenários passou 27/03
+## Precisa rever a autenticação do cookie para usar o da loja atual
+## MyAccount - erro ao adicionar novo endereço e na altração de genero 27/03
+## MyAccount não passou no clear do endereço 27/03
+
+

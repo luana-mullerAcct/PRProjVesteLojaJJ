@@ -10,7 +10,7 @@ export const ELEMENTS = {
       EMAIL_PASSWORD: {
         inputEmail: 'div.vtex-login-2-x-inputContainerEmail input',
         inputPassword: 'div.vtex-login-2-x-inputContainerPassword input',
-        btnEnter: 'div.vtex-login-2-x-sendButton button[type=submit]',
+        btnEnter: '.vtex-login-2-x-sendButton button[type=submit]',
         msgInvalidLogin: '.vtex-login-2-x-formError',
         recoveryPassword:
           'div.vtex-login-2-x-emailAndPasswordForm a.vtex-login-2-x-forgotPasswordLink',

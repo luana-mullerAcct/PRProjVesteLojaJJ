@@ -21,7 +21,7 @@ module.exports = defineConfig({
       return require('./cypress/plugins/index.js')(on, config)
     },
     specPattern: '**/*.{feature,features}',
-    baseUrl: 'https://www.tf.com.br/',
+    baseUrl: 'https://www.johnjohndenim.com.br/',
   },
 })
 

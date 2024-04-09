@@ -57,7 +57,7 @@
             "name": "At Desktop",
             "result": {
               "status": "passed",
-              "duration": 2586000000
+              "duration": 5975000000
             }
           },
           {
@@ -67,7 +67,7 @@
             "name": "I'm on the product list page",
             "result": {
               "status": "passed",
-              "duration": 7220000000
+              "duration": 140322000000
             }
           },
           {
@@ -77,7 +77,7 @@
             "name": "I see the promocional modal",
             "result": {
               "status": "passed",
-              "duration": 6138000000
+              "duration": 6253000000
             }
           },
           {
@@ -87,7 +87,7 @@
             "name": "The product card should be visible",
             "result": {
               "status": "passed",
-              "duration": 2543000000
+              "duration": 6188000000
             }
           }
         ]
@@ -128,7 +128,7 @@
             "name": "At Desktop",
             "result": {
               "status": "passed",
-              "duration": 5138000000
+              "duration": 22490000000
             }
           },
           {
@@ -138,7 +138,7 @@
             "name": "I'm on the product list page",
             "result": {
               "status": "passed",
-              "duration": 5797000000
+              "duration": 143025000000
             }
           },
           {
@@ -148,7 +148,7 @@
             "name": "I see the promocional modal",
             "result": {
               "status": "passed",
-              "duration": 6136000000
+              "duration": 6379000000
             }
           },
           {
@@ -158,7 +158,7 @@
             "name": "I select the ordination by Mais Vendidos",
             "result": {
               "status": "passed",
-              "duration": 2610000000
+              "duration": 2965000000
             }
           },
           {
@@ -168,7 +168,7 @@
             "name": "I validate the page ordenation by Mais Vendidos",
             "result": {
               "status": "passed",
-              "duration": 2505000000
+              "duration": 2603000000
             }
           }
         ]
@@ -209,7 +209,7 @@
             "name": "At Desktop",
             "result": {
               "status": "passed",
-              "duration": 5098000000
+              "duration": 11438000000
             }
           },
           {
@@ -219,7 +219,7 @@
             "name": "I'm on the product list page",
             "result": {
               "status": "passed",
-              "duration": 3825000000
+              "duration": 141054000000
             }
           },
           {
@@ -229,7 +229,7 @@
             "name": "I see the promocional modal",
             "result": {
               "status": "passed",
-              "duration": 6130000000
+              "duration": 6163000000
             }
           },
           {
@@ -239,7 +239,7 @@
             "name": "I select the ordination by Mais recentes",
             "result": {
               "status": "passed",
-              "duration": 2606000000
+              "duration": 2997000000
             }
           },
           {
@@ -249,7 +249,7 @@
             "name": "I validate the page ordenation by Mais recentes",
             "result": {
               "status": "passed",
-              "duration": 2503000000
+              "duration": 2594000000
             }
           }
         ]
@@ -290,7 +290,7 @@
             "name": "At Desktop",
             "result": {
               "status": "passed",
-              "duration": 5077000000
+              "duration": 6138000000
             }
           },
           {
@@ -300,7 +300,7 @@
             "name": "I'm on the product list page",
             "result": {
               "status": "passed",
-              "duration": 5719000000
+              "duration": 150943000000
             }
           },
           {
@@ -310,7 +310,7 @@
             "name": "I see the promocional modal",
             "result": {
               "status": "passed",
-              "duration": 6147000000
+              "duration": 6206000000
             }
           },
           {
@@ -320,7 +320,7 @@
             "name": "I select the ordination by Descontos",
             "result": {
               "status": "passed",
-              "duration": 2614000000
+              "duration": 2819000000
             }
           },
           {
@@ -330,7 +330,7 @@
             "name": "I validate the page ordenation by Descontos",
             "result": {
               "status": "passed",
-              "duration": 2504000000
+              "duration": 2560000000
             }
           }
         ]
@@ -371,7 +371,7 @@
             "name": "At Desktop",
             "result": {
               "status": "passed",
-              "duration": 5095000000
+              "duration": 6597000000
             }
           },
           {
@@ -381,7 +381,7 @@
             "name": "I'm on the product list page",
             "result": {
               "status": "passed",
-              "duration": 3698000000
+              "duration": 13994000000
             }
           },
           {
@@ -391,7 +391,7 @@
             "name": "I see the promocional modal",
             "result": {
               "status": "passed",
-              "duration": 6151000000
+              "duration": 13021000000
             }
           },
           {
@@ -401,7 +401,7 @@
             "name": "I select the ordination by Maior preço",
             "result": {
               "status": "passed",
-              "duration": 2615000000
+              "duration": 6561000000
             }
           },
           {
@@ -411,7 +411,7 @@
             "name": "I validate the page ordenation by Maior preço",
             "result": {
               "status": "passed",
-              "duration": 2503000000
+              "duration": 2990000000
             }
           }
         ]
@@ -452,7 +452,7 @@
             "name": "At Desktop",
             "result": {
               "status": "passed",
-              "duration": 5142000000
+              "duration": 7779000000
             }
           },
           {
@@ -462,7 +462,7 @@
             "name": "I'm on the product list page",
             "result": {
               "status": "passed",
-              "duration": 3816000000
+              "duration": 5237000000
             }
           },
           {
@@ -472,7 +472,7 @@
             "name": "I see the promocional modal",
             "result": {
               "status": "passed",
-              "duration": 6144000000
+              "duration": 18973000000
             }
           },
           {
@@ -482,7 +482,7 @@
             "name": "I select the ordination by Menor preço",
             "result": {
               "status": "passed",
-              "duration": 2619000000
+              "duration": 5167000000
             }
           },
           {
@@ -492,7 +492,7 @@
             "name": "I validate the page ordenation by Menor preço",
             "result": {
               "status": "passed",
-              "duration": 2504000000
+              "duration": 2804000000
             }
           }
         ]
@@ -533,7 +533,7 @@
             "name": "At Desktop",
             "result": {
               "status": "passed",
-              "duration": 5117000000
+              "duration": 12947000000
             }
           },
           {
@@ -543,7 +543,7 @@
             "name": "I'm on the product list page",
             "result": {
               "status": "passed",
-              "duration": 3400000000
+              "duration": 10187000000
             }
           },
           {
@@ -553,7 +553,7 @@
             "name": "I see the promocional modal",
             "result": {
               "status": "passed",
-              "duration": 6134000000
+              "duration": 17394000000
             }
           },
           {
@@ -563,7 +563,7 @@
             "name": "I select the ordination by De A a Z",
             "result": {
               "status": "passed",
-              "duration": 2615000000
+              "duration": 5123000000
             }
           },
           {
@@ -573,7 +573,7 @@
             "name": "I validate the page ordenation by De A a Z",
             "result": {
               "status": "passed",
-              "duration": 2504000000
+              "duration": 13027000000
             }
           }
         ]
@@ -614,7 +614,7 @@
             "name": "At Desktop",
             "result": {
               "status": "passed",
-              "duration": 5096000000
+              "duration": 12592000000
             }
           },
           {
@@ -624,7 +624,7 @@
             "name": "I'm on the product list page",
             "result": {
               "status": "passed",
-              "duration": 3140000000
+              "duration": 29826000000
             }
           },
           {
@@ -634,7 +634,7 @@
             "name": "I see the promocional modal",
             "result": {
               "status": "passed",
-              "duration": 6172000000
+              "duration": 16522000000
             }
           },
           {
@@ -644,7 +644,7 @@
             "name": "I select the ordination by De Z a A",
             "result": {
               "status": "passed",
-              "duration": 2627000000
+              "duration": 27871000000
             }
           },
           {
@@ -654,7 +654,7 @@
             "name": "I validate the page ordenation by De Z a A",
             "result": {
               "status": "passed",
-              "duration": 2505000000
+              "duration": 2803000000
             }
           }
         ]
@@ -695,7 +695,7 @@
             "name": "At Desktop",
             "result": {
               "status": "passed",
-              "duration": 5070000000
+              "duration": 90768000000
             }
           },
           {
@@ -704,8 +704,8 @@
             "line": 7,
             "name": "I'm on the product list page",
             "result": {
-              "status": "passed",
-              "duration": 3263000000
+              "status": "failed",
+              "error_message": "CypressError: Timed out after waiting `180000ms` for your remote page to load.\n\nYour page did not fire its `load` event within `180000ms`.\n\nYou can try increasing the `pageLoadTimeout` value in `Users\\ACCT\\Desktop\\Repositório_Git\\Base_PROJTAF\\cypress.config.js` to wait longer.\n\nBrowsers will not fire the `load` event until all stylesheets and scripts are done downloading.\n\nWhen this `load` event occurs, Cypress will continue running commands.\n    at timedOutWaitingForPageLoad (https://www.johnjohndenim.com.br/__cypress/runner/cypress_runner.js:130096:64)\n    at <unknown> (https://www.johnjohndenim.com.br/__cypress/runner/cypress_runner.js:131082:16)\n    at tryCatcher (https://www.johnjohndenim.com.br/__cypress/runner/cypress_runner.js:1807:23)\n    at <unknown> (https://www.johnjohndenim.com.br/__cypress/runner/cypress_runner.js:4186:41)\n    at tryCatcher (https://www.johnjohndenim.com.br/__cypress/runner/cypress_runner.js:1807:23)\n    at Promise._settlePromiseFromHandler (https://www.johnjohndenim.com.br/__cypress/runner/cypress_runner.js:1519:31)\n    at Promise._settlePromise (https://www.johnjohndenim.com.br/__cypress/runner/cypress_runner.js:1576:18)\n    at Promise._settlePromise0 (https://www.johnjohndenim.com.br/__cypress/runner/cypress_runner.js:1621:10)\n    at Promise._settlePromises (https://www.johnjohndenim.com.br/__cypress/runner/cypress_runner.js:1697:18)\n    at <unknown> (https://www.johnjohndenim.com.br/__cypress/runner/cypress_runner.js:2392:25)\nFrom previous event:\n    at Promise.longStackTracesCaptureStackTrace [as _captureStackTrace] (https://www.johnjohndenim.com.br/__cypress/runner/cypress_runner.js:3486:19)\n    at Promise._then (https://www.johnjohndenim.com.br/__cypress/runner/cypress_runner.js:1239:17)\n    at Promise._passThrough (https://www.johnjohndenim.com.br/__cypress/runner/cypress_runner.js:4110:17)\n    at Promise.lastly.Promise.finally (https://www.johnjohndenim.com.br/__cypress/runner/cypress_runner.js:4119:17)\n    at Object.onRunnableRun (https://www.johnjohndenim.com.br/__cypress/runner/cypress_runner.js:163155:53)\n    at $Cypress.action (https://www.johnjohndenim.com.br/__cypress/runner/cypress_runner.js:41042:28)\n    at Runnable.run (https://www.johnjohndenim.com.br/__cypress/runner/cypress_runner.js:145743:13)\n    at next (https://www.johnjohndenim.com.br/__cypress/runner/cypress_runner.js:155528:10)\n    at <unknown> (https://www.johnjohndenim.com.br/__cypress/runner/cypress_runner.js:155572:5)\n    at timeslice (https://www.johnjohndenim.com.br/__cypress/runner/cypress_runner.js:146083:27)\nFrom Your Spec Code:\n    at PLPPage.visitPLP (cypress/support/pages/PLP/index.js:7:7)\n    at Context.eval (cypress/support/steps/steps.js:88:10)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
             }
           },
           {
@@ -714,8 +714,7 @@
             "line": 8,
             "name": "I see the promocional modal",
             "result": {
-              "status": "passed",
-              "duration": 6137000000
+              "status": "skipped"
             }
           },
           {
@@ -724,8 +723,7 @@
             "line": 53,
             "name": "the button mostrar mais is visible",
             "result": {
-              "status": "passed",
-              "duration": 273000000
+              "status": "skipped"
             }
           },
           {
@@ -734,8 +732,7 @@
             "line": 54,
             "name": "show more products",
             "result": {
-              "status": "passed",
-              "duration": 5025000000
+              "status": "skipped"
             }
           }
         ]

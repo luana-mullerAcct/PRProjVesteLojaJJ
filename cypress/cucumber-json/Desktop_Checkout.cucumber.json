@@ -57,7 +57,7 @@
             "name": "At Desktop",
             "result": {
               "status": "passed",
-              "duration": 2572000000
+              "duration": 4324000000
             }
           },
           {
@@ -67,7 +67,7 @@
             "name": "I have one item in the cart with 1 units",
             "result": {
               "status": "passed",
-              "duration": 3794000000
+              "duration": 11636000000
             }
           },
           {
@@ -77,7 +77,7 @@
             "name": "I proceed to checkout",
             "result": {
               "status": "passed",
-              "duration": 2276000000
+              "duration": 3837000000
             }
           },
           {
@@ -87,7 +87,7 @@
             "name": "I fill in the checkout data without document",
             "result": {
               "status": "passed",
-              "duration": 4288000000
+              "duration": 8933000000
             }
           },
           {
@@ -96,8 +96,9 @@
             "line": 14,
             "name": "mandatory document alert is displayed",
             "result": {
-              "status": "passed",
-              "duration": 1013000000
+              "status": "failed",
+              "duration": 52715000000,
+              "error_message": "AssertionError: Timed out retrying after 50000ms: expected '<span.help.error>' to be 'visible'\n\nThis element `<span.help.error>` is not visible because it has an effective width and height of: `135 x 0` pixels.\n    at CheckoutPage.validateDocumentAlert (cypress/support/pages/Checkout/index.js:325:47)\n    at Context.eval (cypress/support/steps/steps.js:816:15)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
             }
           }
         ]
@@ -138,7 +139,7 @@
             "name": "At Desktop",
             "result": {
               "status": "passed",
-              "duration": 5151000000
+              "duration": 7377000000
             }
           },
           {
@@ -148,7 +149,7 @@
             "name": "I have one item in the cart with 1 units",
             "result": {
               "status": "passed",
-              "duration": 7793000000
+              "duration": 10336000000
             }
           },
           {
@@ -158,7 +159,7 @@
             "name": "I proceed to checkout",
             "result": {
               "status": "passed",
-              "duration": 2140000000
+              "duration": 4436000000
             }
           },
           {
@@ -168,7 +169,7 @@
             "name": "I fill in the checkout data without firstname",
             "result": {
               "status": "passed",
-              "duration": 4196000000
+              "duration": 23138000000
             }
           },
           {
@@ -178,7 +179,7 @@
             "name": "mandatory firstname alert is displayed",
             "result": {
               "status": "passed",
-              "duration": 1014000000
+              "duration": 1201000000
             }
           }
         ]
@@ -219,7 +220,7 @@
             "name": "At Desktop",
             "result": {
               "status": "passed",
-              "duration": 5095000000
+              "duration": 6940000000
             }
           },
           {
@@ -229,7 +230,7 @@
             "name": "I have one item in the cart with 1 units",
             "result": {
               "status": "passed",
-              "duration": 5788000000
+              "duration": 8320000000
             }
           },
           {
@@ -239,7 +240,7 @@
             "name": "I proceed to checkout",
             "result": {
               "status": "passed",
-              "duration": 2114000000
+              "duration": 3792000000
             }
           },
           {
@@ -249,7 +250,7 @@
             "name": "I fill in the checkout data without lastname",
             "result": {
               "status": "passed",
-              "duration": 4208000000
+              "duration": 26524000000
             }
           },
           {
@@ -259,7 +260,7 @@
             "name": "mandatory lastname alert is displayed",
             "result": {
               "status": "passed",
-              "duration": 1014000000
+              "duration": 1532000000
             }
           }
         ]
@@ -300,7 +301,7 @@
             "name": "At Desktop",
             "result": {
               "status": "passed",
-              "duration": 5075000000
+              "duration": 8829000000
             }
           },
           {
@@ -310,7 +311,7 @@
             "name": "I have one item in the cart with 1 units",
             "result": {
               "status": "passed",
-              "duration": 30233000000
+              "duration": 8280000000
             }
           },
           {
@@ -320,7 +321,7 @@
             "name": "I proceed to checkout",
             "result": {
               "status": "passed",
-              "duration": 2145000000
+              "duration": 3528000000
             }
           },
           {
@@ -330,7 +331,7 @@
             "name": "I fill in the checkout data without phone number",
             "result": {
               "status": "passed",
-              "duration": 4222000000
+              "duration": 20288000000
             }
           },
           {
@@ -340,7 +341,7 @@
             "name": "mandatory phone number alert is displayed",
             "result": {
               "status": "passed",
-              "duration": 1015000000
+              "duration": 1801000000
             }
           }
         ]
@@ -381,7 +382,7 @@
             "name": "At Desktop",
             "result": {
               "status": "passed",
-              "duration": 5090000000
+              "duration": 8259000000
             }
           },
           {
@@ -391,7 +392,7 @@
             "name": "I have one item in the cart with 1 units",
             "result": {
               "status": "passed",
-              "duration": 25025000000
+              "duration": 9961000000
             }
           },
           {
@@ -401,7 +402,7 @@
             "name": "I proceed to checkout",
             "result": {
               "status": "passed",
-              "duration": 2146000000
+              "duration": 3492000000
             }
           },
           {
@@ -411,7 +412,7 @@
             "name": "I fill in the checkout data",
             "result": {
               "status": "passed",
-              "duration": 5243000000
+              "duration": 30672000000
             }
           },
           {
@@ -420,8 +421,8 @@
             "line": 36,
             "name": "I fill the address data",
             "result": {
-              "status": "passed",
-              "duration": 7070000000
+              "status": "failed",
+              "error_message": "CypressError: Timed out retrying after 50000ms: `cy.click()` can only be called on a single element. Your subject contained 2 elements. Pass `{ multiple: true }` if you want to serially click each element.\n    at mouseAction (https://www.johnjohndenim.com.br/__cypress/runner/cypress_runner.js:111540:68)\n    at $Cy.click (https://www.johnjohndenim.com.br/__cypress/runner/cypress_runner.js:111707:14)\n    at $Cy.now (https://www.johnjohndenim.com.br/__cypress/runner/cypress_runner.js:138540:90)\n    at onReady (https://www.johnjohndenim.com.br/__cypress/runner/cypress_runner.js:114773:21)\n    at runAllChecks (https://www.johnjohndenim.com.br/__cypress/runner/cypress_runner.js:112349:14)\n    at retryActionability (https://www.johnjohndenim.com.br/__cypress/runner/cypress_runner.js:112371:16)\n    at tryCatcher (https://www.johnjohndenim.com.br/__cypress/runner/cypress_runner.js:1807:23)\n    at Promise.attempt.Promise.try (https://www.johnjohndenim.com.br/__cypress/runner/cypress_runner.js:4315:29)\nFrom previous event:\n    at Promise.longStackTracesCaptureStackTrace [as _captureStackTrace] (https://www.johnjohndenim.com.br/__cypress/runner/cypress_runner.js:3486:19)\n    at Promise._then (https://www.johnjohndenim.com.br/__cypress/runner/cypress_runner.js:1239:17)\n    at Promise.then (https://www.johnjohndenim.com.br/__cypress/runner/cypress_runner.js:1132:17)\n    at next (https://www.johnjohndenim.com.br/__cypress/runner/cypress_runner.js:144463:101)\n    at <unknown> (https://www.johnjohndenim.com.br/__cypress/runner/cypress_runner.js:144484:16)\n    at tryCatcher (https://www.johnjohndenim.com.br/__cypress/runner/cypress_runner.js:1807:23)\n    at Promise._settlePromiseFromHandler (https://www.johnjohndenim.com.br/__cypress/runner/cypress_runner.js:1519:31)\n    at Promise._settlePromise (https://www.johnjohndenim.com.br/__cypress/runner/cypress_runner.js:1576:18)\n    at Promise._settlePromise0 (https://www.johnjohndenim.com.br/__cypress/runner/cypress_runner.js:1621:10)\n    at Promise._settlePromises (https://www.johnjohndenim.com.br/__cypress/runner/cypress_runner.js:1701:18)\n    at <unknown> (https://www.johnjohndenim.com.br/__cypress/runner/cypress_runner.js:2392:25)\nFrom Your Spec Code:\n    at CheckoutPage.typeZipCode (cypress/support/pages/Checkout/index.js:114:7)\n    at Context.eval (cypress/support/steps/steps.js:521:15)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
             }
           },
           {
@@ -430,8 +431,7 @@
             "line": 37,
             "name": "I fill mastercard card number",
             "result": {
-              "status": "passed",
-              "duration": 5024000000
+              "status": "skipped"
             }
           },
           {
@@ -440,8 +440,7 @@
             "line": 38,
             "name": "checkbox MASTERCARD must be selected",
             "result": {
-              "status": "passed",
-              "duration": 1025000000
+              "status": "skipped"
             }
           }
         ]
@@ -482,7 +481,7 @@
             "name": "At Desktop",
             "result": {
               "status": "passed",
-              "duration": 5114000000
+              "duration": 9408000000
             }
           },
           {
@@ -492,7 +491,7 @@
             "name": "I have one item in the cart with 1 units",
             "result": {
               "status": "passed",
-              "duration": 6484000000
+              "duration": 30923000000
             }
           },
           {
@@ -502,7 +501,7 @@
             "name": "I proceed to checkout",
             "result": {
               "status": "passed",
-              "duration": 2132000000
+              "duration": 14260000000
             }
           },
           {
@@ -512,7 +511,7 @@
             "name": "I fill in the checkout data",
             "result": {
               "status": "passed",
-              "duration": 5037000000
+              "duration": 37877000000
             }
           },
           {
@@ -521,8 +520,8 @@
             "line": 43,
             "name": "I fill the address data",
             "result": {
-              "status": "passed",
-              "duration": 4360000000
+              "status": "failed",
+              "error_message": "CypressError: Timed out retrying after 50000ms: `cy.click()` can only be called on a single element. Your subject contained 2 elements. Pass `{ multiple: true }` if you want to serially click each element.\n    at mouseAction (https://www.johnjohndenim.com.br/__cypress/runner/cypress_runner.js:111540:68)\n    at $Cy.click (https://www.johnjohndenim.com.br/__cypress/runner/cypress_runner.js:111707:14)\n    at $Cy.now (https://www.johnjohndenim.com.br/__cypress/runner/cypress_runner.js:138540:90)\n    at onReady (https://www.johnjohndenim.com.br/__cypress/runner/cypress_runner.js:114773:21)\n    at runAllChecks (https://www.johnjohndenim.com.br/__cypress/runner/cypress_runner.js:112349:14)\n    at retryActionability (https://www.johnjohndenim.com.br/__cypress/runner/cypress_runner.js:112371:16)\n    at tryCatcher (https://www.johnjohndenim.com.br/__cypress/runner/cypress_runner.js:1807:23)\n    at Promise.attempt.Promise.try (https://www.johnjohndenim.com.br/__cypress/runner/cypress_runner.js:4315:29)\nFrom previous event:\n    at Promise.longStackTracesCaptureStackTrace [as _captureStackTrace] (https://www.johnjohndenim.com.br/__cypress/runner/cypress_runner.js:3486:19)\n    at Promise._then (https://www.johnjohndenim.com.br/__cypress/runner/cypress_runner.js:1239:17)\n    at Promise.then (https://www.johnjohndenim.com.br/__cypress/runner/cypress_runner.js:1132:17)\n    at next (https://www.johnjohndenim.com.br/__cypress/runner/cypress_runner.js:144463:101)\n    at <unknown> (https://www.johnjohndenim.com.br/__cypress/runner/cypress_runner.js:144484:16)\n    at tryCatcher (https://www.johnjohndenim.com.br/__cypress/runner/cypress_runner.js:1807:23)\n    at Promise._settlePromiseFromHandler (https://www.johnjohndenim.com.br/__cypress/runner/cypress_runner.js:1519:31)\n    at Promise._settlePromise (https://www.johnjohndenim.com.br/__cypress/runner/cypress_runner.js:1576:18)\n    at Promise._settlePromise0 (https://www.johnjohndenim.com.br/__cypress/runner/cypress_runner.js:1621:10)\n    at Promise._settlePromises (https://www.johnjohndenim.com.br/__cypress/runner/cypress_runner.js:1701:18)\n    at <unknown> (https://www.johnjohndenim.com.br/__cypress/runner/cypress_runner.js:2392:25)\nFrom Your Spec Code:\n    at CheckoutPage.typeZipCode (cypress/support/pages/Checkout/index.js:114:7)\n    at Context.eval (cypress/support/steps/steps.js:521:15)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
             }
           },
           {
@@ -531,8 +530,7 @@
             "line": 44,
             "name": "I fill visa card number",
             "result": {
-              "status": "passed",
-              "duration": 4595000000
+              "status": "skipped"
             }
           },
           {
@@ -541,8 +539,7 @@
             "line": 45,
             "name": "checkbox VISA must be selected",
             "result": {
-              "status": "passed",
-              "duration": 1026000000
+              "status": "skipped"
             }
           }
         ]
@@ -583,7 +580,7 @@
             "name": "At Desktop",
             "result": {
               "status": "passed",
-              "duration": 5182000000
+              "duration": 9327000000
             }
           },
           {
@@ -593,7 +590,7 @@
             "name": "I have one item in the cart with 1 units",
             "result": {
               "status": "passed",
-              "duration": 2319000000
+              "duration": 31518000000
             }
           },
           {
@@ -603,7 +600,7 @@
             "name": "I proceed to checkout",
             "result": {
               "status": "passed",
-              "duration": 2184000000
+              "duration": 8762000000
             }
           },
           {
@@ -613,7 +610,7 @@
             "name": "I fill in the checkout data",
             "result": {
               "status": "passed",
-              "duration": 6294000000
+              "duration": 45184000000
             }
           },
           {
@@ -622,8 +619,8 @@
             "line": 50,
             "name": "I fill the address data",
             "result": {
-              "status": "passed",
-              "duration": 4729000000
+              "status": "failed",
+              "error_message": "CypressError: Timed out retrying after 50000ms: `cy.click()` can only be called on a single element. Your subject contained 2 elements. Pass `{ multiple: true }` if you want to serially click each element.\n    at mouseAction (https://www.johnjohndenim.com.br/__cypress/runner/cypress_runner.js:111540:68)\n    at $Cy.click (https://www.johnjohndenim.com.br/__cypress/runner/cypress_runner.js:111707:14)\n    at $Cy.now (https://www.johnjohndenim.com.br/__cypress/runner/cypress_runner.js:138540:90)\n    at onReady (https://www.johnjohndenim.com.br/__cypress/runner/cypress_runner.js:114773:21)\n    at runAllChecks (https://www.johnjohndenim.com.br/__cypress/runner/cypress_runner.js:112349:14)\n    at retryActionability (https://www.johnjohndenim.com.br/__cypress/runner/cypress_runner.js:112371:16)\n    at tryCatcher (https://www.johnjohndenim.com.br/__cypress/runner/cypress_runner.js:1807:23)\n    at Promise.attempt.Promise.try (https://www.johnjohndenim.com.br/__cypress/runner/cypress_runner.js:4315:29)\nFrom previous event:\n    at Promise.longStackTracesCaptureStackTrace [as _captureStackTrace] (https://www.johnjohndenim.com.br/__cypress/runner/cypress_runner.js:3486:19)\n    at Promise._then (https://www.johnjohndenim.com.br/__cypress/runner/cypress_runner.js:1239:17)\n    at Promise.then (https://www.johnjohndenim.com.br/__cypress/runner/cypress_runner.js:1132:17)\n    at next (https://www.johnjohndenim.com.br/__cypress/runner/cypress_runner.js:144463:101)\n    at <unknown> (https://www.johnjohndenim.com.br/__cypress/runner/cypress_runner.js:144484:16)\n    at tryCatcher (https://www.johnjohndenim.com.br/__cypress/runner/cypress_runner.js:1807:23)\n    at Promise._settlePromiseFromHandler (https://www.johnjohndenim.com.br/__cypress/runner/cypress_runner.js:1519:31)\n    at Promise._settlePromise (https://www.johnjohndenim.com.br/__cypress/runner/cypress_runner.js:1576:18)\n    at Promise._settlePromise0 (https://www.johnjohndenim.com.br/__cypress/runner/cypress_runner.js:1621:10)\n    at Promise._settlePromises (https://www.johnjohndenim.com.br/__cypress/runner/cypress_runner.js:1701:18)\n    at <unknown> (https://www.johnjohndenim.com.br/__cypress/runner/cypress_runner.js:2392:25)\nFrom Your Spec Code:\n    at CheckoutPage.typeZipCode (cypress/support/pages/Checkout/index.js:114:7)\n    at Context.eval (cypress/support/steps/steps.js:521:15)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
             }
           },
           {
@@ -632,8 +629,7 @@
             "line": 51,
             "name": "I fill american express card number",
             "result": {
-              "status": "passed",
-              "duration": 4516000000
+              "status": "skipped"
             }
           },
           {
@@ -642,8 +638,7 @@
             "line": 52,
             "name": "checkbox AMERICANEXPRESS must be selected",
             "result": {
-              "status": "passed",
-              "duration": 1029000000
+              "status": "skipped"
             }
           }
         ]
