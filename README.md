@@ -30,7 +30,7 @@ yarn cypress run --config video=false --env allure=true
 ## Para gerar dashboard com Allure
 yarn allure serve
 
-## Projeto Veste 20/03/24
+## Projeto Veste 20/03/24 por Luana Müller
 ## rotinas que rodaram loja: John John com ressalvas
 ## NavigationTest 20/03 ok
 ## PLP - categoryTeste unico cenário que não passou foi o 'ver mais'. 21/03
@@ -40,5 +40,6 @@ yarn allure serve
 ## MyAccount não passou no clear do endereço. 27/03
 ## Precisa rever a autenticação do cookie para usar o da loja atual
 ## Primeiro commit realizado em 09/04 as 14:30 com a subida do projeto no git.
+## 09/04 Precisei ajustar o repositório correto no git e o email que estava commitando
 
 
