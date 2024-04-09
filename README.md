@@ -1,8 +1,9 @@
-# TF.automacao-funcional
+# TF.automacao-funcional 
+# Veste.automação-funcional - cópia base do projeto TF
 
 # cypress-cucumber
 
-Projeto de Automação End-to-End com BDD da Track&Field 
+Projeto de Automação End-to-End com BDD da Veste 
 
 ## Installation
 
@@ -30,13 +31,14 @@ yarn cypress run --config video=false --env allure=true
 yarn allure serve
 
 ## Projeto Veste 20/03/24
-## rotinas que rodaram loja: John John
-## NavigationTest 20/03
-## PLP - categoryTeste unico cenário que não passou foi o ver mais. 21/03
-## PDP - erro no incluir item ao carrinho PDPPage validateBTNAddCart, nos demais cenários passou 26/03
-## LOGIN - erro no Sair, nos demais cenários passou 27/03
+## rotinas que rodaram loja: John John com ressalvas
+## NavigationTest 20/03 ok
+## PLP - categoryTeste unico cenário que não passou foi o 'ver mais'. 21/03
+## PDP - erro no incluir item ao carrinho PDPPage validateBTNAddCart, nos demais cenários passou. 26/03
+## LOGIN - erro no Sair, nos demais cenários passou. 27/03
+## MyAccount - erro ao adicionar novo endereço e na altração de genero. 27/03
+## MyAccount não passou no clear do endereço. 27/03
 ## Precisa rever a autenticação do cookie para usar o da loja atual
-## MyAccount - erro ao adicionar novo endereço e na altração de genero 27/03
-## MyAccount não passou no clear do endereço 27/03
+## Primeiro commit realizado em 09/04 as 14:30 com a subida do projeto no git.
 
 
